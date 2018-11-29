@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="snc@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="snc@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="snc@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="snc: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="snc@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="snc: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="gift: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyCommodityHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyVmHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/BootStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+              <folding>
+                <element signature="e#1716#3333#0" expanded="true" />
+                <element signature="e#1720#1754#0" expanded="true" />
+                <element signature="e#1720#1754#0" expanded="true" />
+                <element signature="e#1716#3333#0" expanded="true" />
+                <element signature="e#1787#1825#1" expanded="true" />
+                <element signature="e#1838#1887#1" expanded="true" />
+                <element signature="e#1945#1961#0" expanded="true" />
+                <element signature="e#1945#1961#0" expanded="true" />
+                <element signature="e#1943#1977#1" expanded="true" />
+                <element signature="e#1993#2018#0" expanded="true" />
+                <element signature="e#1999#2033#1" expanded="true" />
+                <element signature="e#1944#1963#0" expanded="true" />
+                <element signature="e#2104#2139#1" expanded="true" />
+                <element signature="e#2152#3269#0" expanded="true" />
+                <element signature="e#2152#3269#0" expanded="true" />
+                <element signature="e#2254#2281#0" expanded="true" />
+                <element signature="e#2254#2281#0" expanded="true" />
+                <element signature="e#2299#2324#0" expanded="true" />
+                <element signature="e#2299#2324#0" expanded="true" />
+                <element signature="e#2276#2331#1" expanded="true" />
+                <element signature="e#2837#3269#0" expanded="true" />
+                <element signature="e#2837#3269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>messageR</find>
+      <find>Received</find>
+      <find>write</find>
+      <find>wr</find>
+      <find>core</find>
+      <find>aop</find>
+      <find>mySqlDataSource</find>
+      <find>AbstractApplicationContext</find>
+      <find>org.springframework.aop.config.internalAutoProxyCreator</find>
+      <find>internalAutoProxyCreator</find>
+      <find>BeanCreationException</find>
+      <find>MapperScannerConfigurer</find>
+      <find>elst</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/ShopHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/ClassDao.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/ClassServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/ClassMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ClassHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Vm.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/VmDao.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/VmService.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/VmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/User.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/util/BuyVm.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/VmMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/GiftDao.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/GiftService.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/GiftServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/BuyGift.java" />
+        <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/GiftMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/DeletesCartHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Add.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/ceshi" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/ceshi.txt" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Gift.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Shop.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/cart.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Cart.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Class.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Commodity.java" />
+        <option value="$PROJECT_DIR$/src/com/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/B.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/A.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/Elasticsearch5.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Gift.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" />
+        <option value="$PROJECT_DIR$/src/com/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="snc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="snc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="snc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="751" />
+    <option name="y" value="27" />
+    <option name="width" value="1164" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ide" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.38011697" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="snc.server.ide.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/java/snc/server/ide/tttt" />
+      <recent name="$PROJECT_DIR$/src/com/java/snc/server/ide/handler" />
+      <recent name="$PROJECT_DIR$/src/com/java/snc/server/ide/test" />
+      <recent name="$PROJECT_DIR$/src/com/java/snc/server/ide/pojo" />
+      <recent name="$PROJECT_DIR$/src/com/resources/ide/mapping" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Elasticsearch5.createGift">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snc.server.ide.tttt.Elasticsearch.A" />
+      <module name="snc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.server.ide.test.Elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BootStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BootStart" />
+      <module name="snc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Elasticsearch5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.Elasticsearch.Elasticsearch5" />
+      <module name="snc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.server.ide.test.Elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration name="Elasticsearch5.createGift" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.server.ide.test.Elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="snc.server.ide.test.Elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.Elasticsearch.Elasticsearch5" />
+      <option name="METHOD_NAME" value="createGift" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Elasticsearch5.testupsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.server.ide.test.Elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="snc.server.ide.tttt.Elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.Elasticsearch.Elasticsearch5" />
+      <option name="METHOD_NAME" value="testupsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BootStart" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="JUnit.Elasticsearch5.testupsert" />
+      <item itemvalue="Application.Elasticsearch5" />
+      <item itemvalue="JUnit.Elasticsearch5.createGift" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Elasticsearch5.createGift" />
+        <item itemvalue="Application.BootStart" />
+        <item itemvalue="Application.Elasticsearch5" />
+        <item itemvalue="JUnit.Elasticsearch5.testupsert" />
+        <item itemvalue="Application.A" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+      <created>1541226674826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541226674826</updated>
+      <workItem from="1541226679315" duration="917000" />
+      <workItem from="1541227651049" duration="5736000" />
+      <workItem from="1541423284324" duration="1259000" />
+      <workItem from="1541494520759" duration="3556000" />
+      <workItem from="1541516573991" duration="921000" />
+      <workItem from="1541925828831" duration="3105000" />
+      <workItem from="1541950663521" duration="5019000" />
+      <workItem from="1541993879777" duration="5415000" />
+      <workItem from="1542012117816" duration="1695000" />
+      <workItem from="1542024603301" duration="9566000" />
+      <workItem from="1542081775653" duration="11116000" />
+      <workItem from="1542187606953" duration="1141000" />
+      <workItem from="1542202501044" duration="407000" />
+      <workItem from="1542278764179" duration="5007000" />
+      <workItem from="1542361131987" duration="12816000" />
+      <workItem from="1542390094344" duration="161000" />
+      <workItem from="1542390274770" duration="16914000" />
+      <workItem from="1542431650695" duration="5068000" />
+      <workItem from="1542437561286" duration="30559000" />
+      <workItem from="1542504795298" duration="6261000" />
+      <workItem from="1542553762517" duration="1247000" />
+      <workItem from="1542727937086" duration="2357000" />
+      <workItem from="1542812346096" duration="504000" />
+      <workItem from="1542818452599" duration="459000" />
+      <workItem from="1542847519931" duration="246000" />
+      <workItem from="1542849545709" duration="6641000" />
+      <workItem from="1542864045773" duration="3688000" />
+      <workItem from="1542959282073" duration="606000" />
+      <workItem from="1542977323213" duration="388000" />
+      <workItem from="1543048789276" duration="647000" />
+      <workItem from="1543122680961" duration="4058000" />
+      <workItem from="1543296044562" duration="1030000" />
+      <workItem from="1543305507142" duration="2229000" />
+      <workItem from="1543328280624" duration="1288000" />
+      <workItem from="1543380034408" duration="2464000" />
+      <workItem from="1543388338288" duration="280000" />
+      <workItem from="1543388620879" duration="118000" />
+      <workItem from="1543409928514" duration="604000" />
+      <workItem from="1543476642966" duration="1515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 10m 37s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 11m 41s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 11m 56s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_addIndex1 - 2018.11.22 at 13h 12m 01s.xml">
+      <configuration name="Elasticsearch5.addIndex1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 21m 09s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createUser1 - 2018.11.22 at 13h 22m 15s.xml">
+      <configuration name="Elasticsearch5.createUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createUser1 - 2018.11.22 at 13h 23m 37s.xml">
+      <configuration name="Elasticsearch5.createUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createUser1 - 2018.11.22 at 13h 24m 00s.xml">
+      <configuration name="Elasticsearch5.createUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 24m 07s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 25m 47s.xml">
+      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="157027000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3291536" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32747602" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info anchor="right" id="Database" order="3" weight="0.34124792" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39848813" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38552916" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1996805" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32721382" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32289416" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3261339" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/GiftServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/GiftService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/ide/mapping/ClassMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/ceshi" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/common/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/commodity" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/ElasticSearchOpt.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/Information.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Commodity.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Vm.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Course.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Vm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/gift" />
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/userinfo" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/BuyVm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/ceshi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/ElasticsearchTest1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ClassHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/DeletesCartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/文档/java/jdk1.8/src.zip!/java/util/Vector.java" />
+    <entry file="jar://$USER_HOME$/文档/java/jdk1.8/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/B.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/Elasticsearch/A.java" />
+    <entry file="jar://$USER_HOME$/文档/java/jdk1.8/src.zip!/java/util/List.java" />
+    <entry file="jar://$USER_HOME$/文档/java/jdk1.8/src.zip!/java/util/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/pojo/Gift.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Commodity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/ide/mapping/GiftMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/BuyGift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Gift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="40" selection-end-line="256" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/BootStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="e#1716#3333#0" expanded="true" />
+            <element signature="e#1720#1754#0" expanded="true" />
+            <element signature="e#1720#1754#0" expanded="true" />
+            <element signature="e#1716#3333#0" expanded="true" />
+            <element signature="e#1787#1825#1" expanded="true" />
+            <element signature="e#1838#1887#1" expanded="true" />
+            <element signature="e#1945#1961#0" expanded="true" />
+            <element signature="e#1945#1961#0" expanded="true" />
+            <element signature="e#1943#1977#1" expanded="true" />
+            <element signature="e#1993#2018#0" expanded="true" />
+            <element signature="e#1999#2033#1" expanded="true" />
+            <element signature="e#1944#1963#0" expanded="true" />
+            <element signature="e#2104#2139#1" expanded="true" />
+            <element signature="e#2152#3269#0" expanded="true" />
+            <element signature="e#2152#3269#0" expanded="true" />
+            <element signature="e#2254#2281#0" expanded="true" />
+            <element signature="e#2254#2281#0" expanded="true" />
+            <element signature="e#2299#2324#0" expanded="true" />
+            <element signature="e#2299#2324#0" expanded="true" />
+            <element signature="e#2276#2331#1" expanded="true" />
+            <element signature="e#2837#3269#0" expanded="true" />
+            <element signature="e#2837#3269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38011697" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>snc:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (snc)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38011697" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>snc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38011697" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38011697" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
