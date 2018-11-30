@@ -1,9 +1,7 @@
-package contrual;
+package snc.server.ide.util;
 
 import org.apache.log4j.Logger;
-import pojo.Data;
-import pojo.Status;
-import utils.RedisOperating;
+import snc.server.ide.pojo.Data;
 
 import java.io.BufferedReader;
 import java.io.File;

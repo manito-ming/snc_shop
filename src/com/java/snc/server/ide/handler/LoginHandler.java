@@ -59,7 +59,7 @@ public class LoginHandler extends ChannelInboundHandlerAdapter {
                 userInfo.setUser_id(uuid);
                 String dockerid = jedis.hget(aid,FinalTable.DOCKER_ID);
                 if (dockerid == null) {
-                    //创建docker
+
                 } else {
                     userInfo.setDockerid(dockerid);
                 }

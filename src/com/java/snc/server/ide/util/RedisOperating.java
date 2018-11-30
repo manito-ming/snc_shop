@@ -1,11 +1,12 @@
-package utils;
+package snc.server.ide.util;
 
 import redis.clients.jedis.Jedis;
+import snc.boot.util.RedisUtils;
 import java.util.List;
 import java.util.Set;
 
 /**
- * Created by jingbao on 18-7-25.
+ * Created by jac on 18-11-30.
  */
 public class RedisOperating {
     /**

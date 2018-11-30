@@ -1,11 +1,11 @@
-package utils;
+package snc.boot.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * Created by jingbao on 18-7-25.
+ * Created by jac on 18-11-30.
  */
 public class RedisUtils {
     //Redis服务器IP

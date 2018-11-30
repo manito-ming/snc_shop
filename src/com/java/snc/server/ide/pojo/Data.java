@@ -1,4 +1,4 @@
-package pojo;
+package snc.server.ide.pojo;
 
 /**
  * Created by jingbao on 18-11-8.
