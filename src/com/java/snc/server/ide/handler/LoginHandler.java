@@ -14,10 +14,15 @@ import redis.clients.jedis.Jedis;
 import snc.boot.redis.GetJedis;
 import snc.boot.util.FinalTable;
 import snc.boot.util.common.Router;
+import snc.server.ide.pojo.Data;
+import snc.server.ide.pojo.Status;
 import snc.server.ide.pojo.User;
 import snc.server.ide.pojo.UserInfo;
 import snc.server.ide.service.UserInfoService;
+import snc.server.ide.service.handler.IDELoginHandler;
+import snc.server.ide.service.handler.ShopLoginHandler;
 import snc.server.ide.service.impl.UserInfoServiceImpl;
+import snc.server.ide.util.StartDocker;
 
 import javax.annotation.PostConstruct;
 
@@ -48,42 +53,17 @@ public class LoginHandler extends ChannelInboundHandlerAdapter {
         if (fhr.uri().equals("/snc/ide/login")) {
             logger.info("/snc/ide/login sucess");
             JSONObject o = Router.getMessage(fhr);
-            String aid = o.getString(FinalTable.ARM_USER_ID);
-            logger.info("user id : "+aid);
-            String ide_uid = FinalTable.Prefix_AID+aid;
-            Jedis jedis = GetJedis.getJedis();
-            String uuid;
-            UserInfo userInfo = new UserInfo();
-            if (jedis.exists(ide_uid) && (uuid = jedis.hget(ide_uid,FinalTable.USER_ID))!=null) {
-                userInfo.setIde_id(ide_uid);
-                userInfo.setUser_id(uuid);
-                String dockerid = jedis.hget(aid,FinalTable.DOCKER_ID);
-                if (dockerid == null) {
+            String type = o.getString(FinalTable.LOGIN_TYPE);
+            switch (type) {
+                case "ide":
+                    IDELoginHandler Ilogin = new IDELoginHandler(ctx, loginHandler.userInfoService);
+                    Ilogin.login(o);
+                    break;
+                case "shop":
+                    ShopLoginHandler Slogin = new ShopLoginHandler();
 
-                } else {
-                    userInfo.setDockerid(dockerid);
-                }
-                String debugPort = jedis.hget(aid,FinalTable.DEBUG_PORT);
-                if (debugPort == null) {
-                    //分配port
-                } else {
-                    userInfo.setPort(Integer.parseInt(debugPort));
-                }
-            } else if (jedis.exists(aid)) {
-                try {
-                    System.out.println(loginHandler.userInfoService);
-                    String user_id = loginHandler.userInfoService.getUUID(aid);
-                    String data = "{\"r\":\"xxxx\",\"d\":\"xxxx\"}";
-                    Router.sendMessage("0",data,ctx);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                    break;
             }
-        }else {
-            ctx.fireChannelRead(msg);
         }
-    }
-    private void sendMessage(FullHttpResponse response, ChannelHandlerContext ctx){
-
     }
 }

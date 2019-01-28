@@ -1,22 +1,18 @@
-package java;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import snc.server.ide.dao.UserInfoDao;
+import com.alibaba.fastjson.JSON;
+import snc.server.ide.pojo.UserInfo;
 
 import javax.annotation.Resource;
 
-@ContextConfiguration(value = {"classpath:applicationContext.xml"})
 public class Test {
-    @Autowired
-    private UserInfoDao userInfoDao;
-
-
     @org.junit.Test
     public void selectByPage() throws Exception {
-
-        String users = userInfoDao.getUUID("a");
-        System.out.println(users);
+        UserInfo userInfo = new UserInfo();
+        userInfo.setDockerid("123");
+        userInfo.setIde_id("234");
+        userInfo.setPort("1111");
+        userInfo.setUser_id("44444");
+        String i = JSON.toJSONString(userInfo);
+        System.out.println(i);
 
     }
 }

@@ -5,13 +5,17 @@ package snc.server.ide.test.Elasticsearch;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
+import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.index.query.MultiMatchQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
@@ -28,6 +32,7 @@ import snc.server.ide.tttt.pojo.User;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
@@ -119,20 +124,21 @@ public class Elasticsearch5 {
 
         client.close();
     }
+    @Test
     //创建商品
-    public  void createCart(Commodity commodity){
-//        Commodity commodity = new Commodity();
-//        commodity.setNum(12);
-//        commodity.setPrice(2);
-//        commodity.setC_brand("sa");
-//        commodity.setC_stock("SAS");
-//        commodity.setCol("ass");
-//        commodity.setC_details("as");
-//        commodity.setC_image(":asda");
-//        commodity.setMod("asd");
-//        commodity.setSid("1");
-//        commodity.setSize("as");
-//        commodity.setC_type("ASd");
+    public  void createCart(){
+        Commodity commodity = new Commodity();
+        commodity.setNum(22);
+        commodity.setPrice(200);
+        commodity.setC_brand("联想");
+        commodity.setC_stock("10");
+        commodity.setCol("黑色");
+        commodity.setC_details("这个产品售后很好");
+        commodity.setC_image("/home/mmz");
+        commodity.setMod("asd");
+        commodity.setSid("3");
+        commodity.setSize("小");
+        commodity.setC_type("电脑");
         XContentBuilder jsonBuild = null;
         try {
             jsonBuild = jsonBuilder();
@@ -168,15 +174,15 @@ public class Elasticsearch5 {
     @Test
     public void testShop()
     {
-        String index="product";
-        String type="product";
+        String index="commodity";
+        String type="commodity";
         String pt="20";
         SearchResponse searchResponse = client.prepareSearch(index)
                 .setTypes(type)
                 .setQuery(QueryBuilders.matchAllQuery())
                 .setSearchType(SearchType.QUERY_THEN_FETCH)
                 .setFrom(1).setSize(1)//分页
-                .addSort("snum", SortOrder.DESC)//排序
+                .addSort("c_price", SortOrder.DESC)//排序
                 .get();
 
         SearchHits hits = searchResponse.getHits();
@@ -194,15 +200,15 @@ public class Elasticsearch5 {
     @Test
     public void testjShop()
     {
-        String index="product";
-        String type="product";
+        String index="commodity";
+        String type="commodity";
 
         SearchResponse searchResponse = client.prepareSearch(index)
                 .setTypes(type)
 //                .setQuery(QueryBuilders.matchAllQuery()) //查询所有
                 .setSearchType(SearchType.QUERY_THEN_FETCH)
 //                .setFrom(1).setG_size(1)//分页
-                .addSort("pt", SortOrder.DESC)//排序
+                .addSort("c_price", SortOrder.DESC)//排序
                 .get();
 
         SearchHits hits = searchResponse.getHits();
@@ -214,6 +220,47 @@ public class Elasticsearch5 {
             System.out.println(s.getSourceAsString());
         }
     }
+
+
+    @Test
+    public void searchMutil()throws Exception {
+        SearchRequestBuilder srb = client.prepareSearch("commodity").setTypes("commodity");
+        QueryBuilder queryBuilder = QueryBuilders.matchPhraseQuery("c_type", "电脑");
+        QueryBuilder queryBuilder2 = QueryBuilders.matchPhraseQuery("c_brand", "三星");
+        SearchResponse sr = srb.setQuery(QueryBuilders.boolQuery()
+                .must(queryBuilder)
+                .must(queryBuilder2))
+                .execute()
+                .actionGet();
+        SearchHits hits = sr.getHits();
+        for (SearchHit hit : hits) {
+            System.out.println(hit.getSourceAsString());
+        }
+    }
+
+    //multiMatch查询指定多个字段
+    @Test
+    public void test11() throws Exception {
+
+        MultiMatchQueryBuilder builder = QueryBuilders.multiMatchQuery("电脑", "c_type", "c_details");
+        SearchResponse response = client.prepareSearch("commodity").setTypes("commodity")
+                .setQuery(builder)
+                .setSize(3)
+                .get();
+
+        SearchHits hits = response.getHits();
+
+        for (SearchHit hit : hits){
+            System.out.println(hit.getSourceAsString());
+
+            Map<String, Object> map = hit.getSourceAsMap();
+
+            for (String key : map.keySet()){
+                System.out.println(key +" = " +map.get(key));
+            }
+        }
+    }
+
     //删除数据
     @Test
     public void testDelete() {
@@ -249,8 +296,6 @@ public class Elasticsearch5 {
 //        Elasticsearch5 elasticsearch5 = new Elasticsearch5();
 
 //        elasticsearch5.createCart(c);
-
-
     }
 
 }

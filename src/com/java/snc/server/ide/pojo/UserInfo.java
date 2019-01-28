@@ -6,7 +6,7 @@ package snc.server.ide.pojo;
 public class UserInfo {
     private String ide_id; //ide id
     private String dockerid; // docker 容器id
-    private int port; //端口号
+    private String port; //端口号
     private String user_id; //对应的uuid
 
     public String getIde_id() {
@@ -25,11 +25,11 @@ public class UserInfo {
         this.dockerid = dockerid;
     }
 
-    public int getPort() {
+    public String getPort() {
         return port;
     }
 
-    public void setPort(int port) {
+    public void setPort(String port) {
         this.port = port;
     }
 

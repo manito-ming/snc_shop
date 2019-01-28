@@ -23,7 +23,33 @@
 	<select id="getCM" resultType="java.lang.String" parameterType="java.lang.String">
 		select
 	  	cmoney
-		from userinfo
-		where uuid = #{uuid}
+		from IDE_docker
+		where user_id = #{user_id}
+	</select>
+
+	<select id="getDockerID" resultType="java.lang.String" parameterType="java.lang.String">
+		select
+		dockerid
+		from IDE_docker
+		where user_id = #{user_id}
+	</select>
+
+	<select id="getDebugPort" resultType="java.lang.String" parameterType="java.lang.String">
+		select
+		port
+		from IDE_docker
+		where user_id=#{user_id}
+	</select>
+	<update id="setDebugPort" parameterMap="UserInfo">
+		update
+		IDE_docker
+		set port = #{port} where user_id=#{user_id}
+	</update>
+
+	<select id="getStatus" resultType="java.lang.Integer" parameterMap="java.lang.String">
+		select
+		status
+		from IDE_UUID
+		where ide_id=#{ide_id}
 	</select>
 </mapper>

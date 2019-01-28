@@ -4,10 +4,13 @@ package snc.boot.util;
  * android and web
  */
 public class FinalTable {
+    public final static String NIL = "nil";
     public final static String UUID="uid"; //用户唯一id
     public final static String AH_USER_ID = "pid"; //手机用户id
     public final static String GIFT_ID="gid";//礼物唯一id
     public final static String ARM_USER_ID = "aid"; //盒子用户id
+    public final static String IDE_ID = "iid";
+    public final static String LOGIN_TYPE="type";
     public final static String CLASS_ID = "cid"; //课程id
     public final static String ARM_KEY = "akey"; //盒子密钥
     public final static String AH_USER_PHONE = "ph"; //用户手机号
@@ -49,15 +52,13 @@ public class FinalTable {
     public final static String COMMODITY_COL="col";//购买商品的颜色
     public final static String COMMODITY_PRICE="price";//购买商品的价格(积分)
 
-
-
-
-
-    public final static String USER_ID = "U";
+    public final static String USER_ID = "U_";
     public final static String DOCKER_ID = "D";
-    public final static String DEBUG_PORT = "P";
     public final static String Prefix_AID = "A_";
-
+    public final static String DEBUG_PORT = "P";
     public final static String SEND_RESULT = "r";
     public final static String SEND_DATA = "d";
+
+    public final static String NO_ERROR="0";
+    public final static String ERROR="1";
 }

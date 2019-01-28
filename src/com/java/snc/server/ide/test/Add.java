@@ -68,17 +68,9 @@ public class Add {                //点击加入购物车时的redis流程，购
 
     public  void del(Commodity commodity){   //我只需要拿到前端的json和加入购物车不一样，我只需要uuid ，sid，num。col，size
                                                        //不用传num，这样可以减少传输字节数
-//        String str="{\"col\":\"red\",\"sid\":111,\"mod\":\"A\",\"size\":\"Xl\",\"U\":222}";//假设这个是前端发来的json
-//        JSONObject jsonObj = JSON.parseObject(str);
-//      System.out.println(jsonObj.getString("col"));
         Jedis jedis = GetJedis.getJedis();
         String cofiled=commodity.getSid()+"_"+commodity.getCol()+"_"+commodity.getMod()+"_"+commodity.getSize();
-
-//        String delete=jsonObj.getInteger("sid")+"_"+jsonObj.getString("col")+"_"+jsonObj.getString("mod")+"_"+jsonObj.getString("size");
-//        System.out.println(delete);
-//        System.out.println("commodity"+"_"+jsonObj.getString("uuid"));
         jedis.hdel("commodity"+"_"+commodity.getPid(),cofiled);
-//        commodityCartService.deletedate(commodity.getPid(),cofiled);
 
     }
     public boolean buyCommodity(Commodity commodity){          //付款

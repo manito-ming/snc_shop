@@ -17,6 +17,7 @@ import java.util.Set;
 import io.netty.channel.socket.SocketChannel;
 import snc.boot.boot.Boot;
 import snc.boot.util.FinalTable;
+import snc.server.ide.pojo.Status;
 import snc.server.ide.test.WebSocketHandler;
 
 import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;
@@ -61,6 +62,9 @@ public class Router {
     }
 
     public static void sendMessage(String res, String data, ChannelHandlerContext ctx) {
+        Status status = new Status();
+        status.setResult(res);
+        status.setData(data);
         String result ="{\"" + FinalTable.SEND_RESULT + "\":\""+res+"\",\""+FinalTable.SEND_DATA+"\":"+data+"}";
         FullHttpResponse response = null;
         log.info("result-----"+result);
@@ -75,4 +79,21 @@ public class Router {
                 response.content().readableBytes());
         ctx.writeAndFlush(response);
     }
+
+    public static void sendMessage(ChannelHandlerContext ctx, Status status) {
+        String result ="{\"" + FinalTable.SEND_RESULT + "\":\""+status.getResult()+"\",\""+FinalTable.SEND_DATA+"\":"+status.getData()+"}";
+        FullHttpResponse response = null;
+        log.info("result-----"+result);
+        try {
+            response = new DefaultFullHttpResponse(HTTP_1_1, OK, Unpooled.wrappedBuffer(result.getBytes("UTF-8")));
+        } catch (UnsupportedEncodingException e) {
+            log.error(ctx.channel().id() + " send message is error" + e);
+        }
+        response.headers().set("Access-Control-Allow_Origin","*");
+        response.headers().set(CONTENT_TYPE, "text/html");
+        response.headers().setInt(CONTENT_LENGTH,
+                response.content().readableBytes());
+        ctx.writeAndFlush(response);
+    }
+
 }
