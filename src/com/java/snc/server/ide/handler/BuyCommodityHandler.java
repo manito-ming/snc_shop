@@ -13,13 +13,9 @@ import snc.boot.util.FinalTable;
 import snc.boot.util.common.Router;
 import snc.server.ide.pojo.Commodity;
 import snc.server.ide.test.Add;
-
-
 import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-
 
 public class BuyCommodityHandler extends ChannelInboundHandlerAdapter {
 

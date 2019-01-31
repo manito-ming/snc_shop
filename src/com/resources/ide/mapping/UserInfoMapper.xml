@@ -46,7 +46,7 @@
 		set port = #{port} where user_id=#{user_id}
 	</update>
 
-	<select id="getStatus" resultType="java.lang.Integer" parameterMap="java.lang.String">
+	<select id="getStatus" resultType="java.lang.Integer" parameterType="java.lang.String">
 		select
 		status
 		from IDE_UUID

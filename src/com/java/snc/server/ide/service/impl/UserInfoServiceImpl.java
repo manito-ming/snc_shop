@@ -12,8 +12,6 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public String getUUID(String aid) {
-        System.out.println(aid);
-        System.out.println(userInfoDao);
         return userInfoDao.getUUID(aid);
     }
 
