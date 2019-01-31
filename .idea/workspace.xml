@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/BootStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/BootStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/ShopLoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/shop/service/handler/ShopLoginHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/sncconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/sncconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BootStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ide/mapping/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ide/mapping/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/boot/Boot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/boot/Boot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyCommodityHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyCommodityHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/LoginHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/UserInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sncconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sncconfig.properties" afterDir="false" />
-    </list>
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,24 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="389">
+              <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -112,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDELoginHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IDELoginHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="462">
+              <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
               <folding>
                 <element signature="e#1006#1035#1" expanded="true" />
                 <element signature="e#1078#1127#1" expanded="true" />
@@ -126,7 +90,26 @@
                 <element signature="e#1312#1345#1" expanded="true" />
                 <element signature="e#1354#1388#1" expanded="true" />
                 <element signature="e#1474#1503#1" expanded="true" />
+                <element signature="e#3643#3663#0" expanded="true" />
+                <element signature="e#3643#3663#0" expanded="true" />
+                <element signature="e#3769#3794#0" expanded="true" />
+                <element signature="e#3769#3794#0" expanded="true" />
+                <element signature="e#3804#3834#0" expanded="true" />
+                <element signature="e#3804#3834#0" expanded="true" />
+                <element signature="e#3844#3868#0" expanded="true" />
+                <element signature="e#3844#3868#0" expanded="true" />
+                <element signature="e#3878#3905#0" expanded="true" />
+                <element signature="e#3878#3905#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDE_UUID" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_UUID">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -140,11 +123,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObject.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.12/fastjson-1.2.12.jar!/com/alibaba/fastjson/JSONObject.class">
+      <file leaf-file-name="GiftHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+            <state relative-caret-position="354">
+              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+              <folding>
+                <element signature="e#1814#1837#1" expanded="true" />
+                <element signature="e#1850#1873#1" expanded="true" />
+                <element signature="e#1886#1953#1" expanded="true" />
+                <element signature="e#1966#1995#0" expanded="true" />
+                <element signature="e#2030#2070#1" expanded="true" />
+                <element signature="e#2083#2102#1" expanded="true" />
+                <element signature="e#2115#2170#1" expanded="true" />
+                <element signature="e#2183#2212#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppcartHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
+              <folding>
+                <element signature="e#1809#1858#0" expanded="true" />
+                <element signature="e#1809#1858#0" expanded="true" />
+                <element signature="e#1872#1949#0" expanded="true" />
+                <element signature="e#1872#1949#0" expanded="true" />
+                <element signature="e#1963#2018#0" expanded="true" />
+                <element signature="e#1963#2018#0" expanded="true" />
+                <element signature="e#2032#2087#0" expanded="true" />
+                <element signature="e#2032#2087#0" expanded="true" />
+                <element signature="e#2101#2174#0" expanded="true" />
+                <element signature="e#2101#2174#0" expanded="true" />
+                <element signature="e#2188#2243#0" expanded="true" />
+                <element signature="e#2188#2243#0" expanded="true" />
+                <element signature="e#2257#2314#0" expanded="true" />
+                <element signature="e#2257#2314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/class">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commodity" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/commodity">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userinfo" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/userinfo">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -351,6 +396,16 @@
               <item name="snc" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="inithandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="snc" type="b2602c69:ProjectViewProjectNode" />
@@ -790,7 +845,7 @@
       <workItem from="1548727133632" duration="2906000" />
       <workItem from="1548762226509" duration="608000" />
       <workItem from="1548899526016" duration="11000" />
-      <workItem from="1548911525469" duration="5390000" />
+      <workItem from="1548911525469" duration="7821000" />
     </task>
     <servers />
   </component>
@@ -827,7 +882,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240977000" />
+    <option name="totallyTimeSpent" value="243408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
@@ -839,7 +894,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.081643544" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.09284952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
       <window_info id="UI Designer" order="2" />
@@ -885,27 +940,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/ClassService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.3/elasticsearch-5.5.3.jar!/org/elasticsearch/common/settings/Settings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="748" column="32" selection-start-line="748" selection-start-column="32" selection-end-line="748" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/util/RedisOperating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -969,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1008,13 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1326,13 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_UUID">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/WebSocketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1364,24 +1377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="48" column="73" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_docker">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1451,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        <state relative-caret-position="462">
+          <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
           <folding>
             <element signature="e#1006#1035#1" expanded="true" />
             <element signature="e#1078#1127#1" expanded="true" />
@@ -1462,7 +1461,99 @@
             <element signature="e#1312#1345#1" expanded="true" />
             <element signature="e#1354#1388#1" expanded="true" />
             <element signature="e#1474#1503#1" expanded="true" />
+            <element signature="e#3643#3663#0" expanded="true" />
+            <element signature="e#3643#3663#0" expanded="true" />
+            <element signature="e#3769#3794#0" expanded="true" />
+            <element signature="e#3769#3794#0" expanded="true" />
+            <element signature="e#3804#3834#0" expanded="true" />
+            <element signature="e#3804#3834#0" expanded="true" />
+            <element signature="e#3844#3868#0" expanded="true" />
+            <element signature="e#3844#3868#0" expanded="true" />
+            <element signature="e#3878#3905#0" expanded="true" />
+            <element signature="e#3878#3905#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_UUID">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_docker">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/class">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/commodity">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/userinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding>
+            <element signature="e#1814#1837#1" expanded="true" />
+            <element signature="e#1850#1873#1" expanded="true" />
+            <element signature="e#1886#1953#1" expanded="true" />
+            <element signature="e#1966#1995#0" expanded="true" />
+            <element signature="e#2030#2070#1" expanded="true" />
+            <element signature="e#2083#2102#1" expanded="true" />
+            <element signature="e#2115#2170#1" expanded="true" />
+            <element signature="e#2183#2212#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="e#1809#1858#0" expanded="true" />
+            <element signature="e#1809#1858#0" expanded="true" />
+            <element signature="e#1872#1949#0" expanded="true" />
+            <element signature="e#1872#1949#0" expanded="true" />
+            <element signature="e#1963#2018#0" expanded="true" />
+            <element signature="e#1963#2018#0" expanded="true" />
+            <element signature="e#2032#2087#0" expanded="true" />
+            <element signature="e#2032#2087#0" expanded="true" />
+            <element signature="e#2101#2174#0" expanded="true" />
+            <element signature="e#2101#2174#0" expanded="true" />
+            <element signature="e#2188#2243#0" expanded="true" />
+            <element signature="e#2188#2243#0" expanded="true" />
+            <element signature="e#2257#2314#0" expanded="true" />
+            <element signature="e#2257#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
         </state>
       </provider>
     </entry>
