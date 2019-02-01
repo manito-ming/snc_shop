@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snc.iml" afterDir="false" />
-    </list>
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,46 +46,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1272">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CSVUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-590">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="370">
+              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#462#479#1" expanded="true" />
                 <element signature="e#430#501#1" expanded="true" />
                 <element signature="e#510#533#1" expanded="true" />
                 <element signature="e#542#585#1" expanded="true" />
-                <element signature="e#604#1382#0" expanded="true" />
-                <element signature="e#604#1382#0" expanded="true" />
+                <element signature="e#670#1448#0" expanded="true" />
+                <element signature="e#670#1448#0" expanded="true" />
                 <element signature="e#709#744#1" expanded="true" />
-                <element signature="e#681#696#0" expanded="true" />
-                <element signature="e#681#696#0" expanded="true" />
+                <element signature="e#747#762#0" expanded="true" />
+                <element signature="e#747#762#0" expanded="true" />
                 <element signature="e#929#963#1" expanded="true" />
-                <element signature="e#933#947#0" expanded="true" />
-                <element signature="e#933#947#0" expanded="true" />
+                <element signature="e#999#1013#0" expanded="true" />
+                <element signature="e#999#1013#0" expanded="true" />
                 <element signature="e#1130#1163#1" expanded="true" />
-                <element signature="e#1182#1196#0" expanded="true" />
-                <element signature="e#1182#1196#0" expanded="true" />
+                <element signature="e#1248#1262#0" expanded="true" />
+                <element signature="e#1248#1262#0" expanded="true" />
                 <element signature="e#1462#1486#1" expanded="true" />
-                <element signature="e#1788#1909#0" expanded="true" />
-                <element signature="e#1788#1909#0" expanded="true" />
-                <element signature="e#1875#1897#0" expanded="true" />
-                <element signature="e#1875#1897#0" expanded="true" />
-                <element signature="e#1932#2168#0" expanded="true" />
-                <element signature="e#1932#2168#0" expanded="true" />
-                <element signature="e#2066#2154#0" expanded="true" />
-                <element signature="e#2066#2154#0" expanded="true" />
+                <element signature="e#1854#1975#0" expanded="true" />
+                <element signature="e#1854#1975#0" expanded="true" />
+                <element signature="e#1941#1963#0" expanded="true" />
+                <element signature="e#1941#1963#0" expanded="true" />
+                <element signature="e#1998#2234#0" expanded="true" />
+                <element signature="e#1998#2234#0" expanded="true" />
+                <element signature="e#2132#2220#0" expanded="true" />
+                <element signature="e#2132#2220#0" expanded="true" />
+                <element signature="e#2260#2287#1" expanded="true" />
+                <element signature="e#2296#2320#1" expanded="true" />
+                <element signature="e#2578#2648#0" expanded="true" />
+                <element signature="e#2578#2648#0" expanded="true" />
+                <element signature="e#2671#2871#0" expanded="true" />
+                <element signature="e#2671#2871#0" expanded="true" />
+                <element signature="e#2769#2857#0" expanded="true" />
+                <element signature="e#2769#2857#0" expanded="true" />
                 <element signature="e#440#506#1" expanded="true" />
                 <element signature="e#549#586#1" expanded="true" />
                 <element signature="e#562#581#0" expanded="true" />
@@ -115,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDE_docker" pinned="false" current-in-tab="false">
-        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_docker">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,11 +117,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiftHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GiftHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            <state relative-caret-position="773">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+              <folding>
+                <element signature="e#1516#2846#0" expanded="true" />
+                <element signature="e#1520#1553#0" expanded="true" />
+                <element signature="e#1520#1553#0" expanded="true" />
+                <element signature="e#1516#2846#0" expanded="true" />
+                <element signature="e#2183#2212#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="e#1548#1628#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,35 +148,54 @@
       <file leaf-file-name="ShoppcartHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
+            <state relative-caret-position="408">
+              <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+              <folding>
+                <element signature="e#2101#2174#0" expanded="true" />
+                <element signature="e#2101#2174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class" pinned="false" current-in-tab="false">
-        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/class">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="BuyCommodityHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commodity" pinned="false" current-in-tab="false">
-        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/commodity">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="BuyVmHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userinfo" pinned="false" current-in-tab="false">
-        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/userinfo">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="CheckCartHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+              <folding>
+                <element signature="e#1530#2667#0" expanded="true" />
+                <element signature="e#1534#1579#0" expanded="true" />
+                <element signature="e#1534#1579#0" expanded="true" />
+                <element signature="e#1530#2667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ClassHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -418,17 +440,6 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="ide" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="snc" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="snc" type="b2602c69:ProjectViewProjectNode" />
@@ -842,7 +853,7 @@
       <workItem from="1548899526016" duration="11000" />
       <workItem from="1548911525469" duration="13742000" />
       <workItem from="1548983947180" duration="898000" />
-      <workItem from="1548984866028" duration="2640000" />
+      <workItem from="1548984866028" duration="3581000" />
     </task>
     <servers />
   </component>
@@ -879,7 +890,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252867000" />
+    <option name="totallyTimeSpent" value="253808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
@@ -903,7 +914,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38485804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38485804" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.32912722" />
@@ -938,61 +949,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#479#1" expanded="true" />
-            <element signature="e#430#501#1" expanded="true" />
-            <element signature="e#510#533#1" expanded="true" />
-            <element signature="e#542#585#1" expanded="true" />
-            <element signature="e#604#1382#0" expanded="true" />
-            <element signature="e#604#1382#0" expanded="true" />
-            <element signature="e#709#744#1" expanded="true" />
-            <element signature="e#681#696#0" expanded="true" />
-            <element signature="e#681#696#0" expanded="true" />
-            <element signature="e#929#963#1" expanded="true" />
-            <element signature="e#933#947#0" expanded="true" />
-            <element signature="e#933#947#0" expanded="true" />
-            <element signature="e#1130#1163#1" expanded="true" />
-            <element signature="e#1182#1196#0" expanded="true" />
-            <element signature="e#1182#1196#0" expanded="true" />
-            <element signature="e#1462#1486#1" expanded="true" />
-            <element signature="e#1788#1909#0" expanded="true" />
-            <element signature="e#1788#1909#0" expanded="true" />
-            <element signature="e#1875#1897#0" expanded="true" />
-            <element signature="e#1875#1897#0" expanded="true" />
-            <element signature="e#1932#2168#0" expanded="true" />
-            <element signature="e#1932#2168#0" expanded="true" />
-            <element signature="e#2066#2154#0" expanded="true" />
-            <element signature="e#2066#2154#0" expanded="true" />
-            <element signature="e#440#506#1" expanded="true" />
-            <element signature="e#549#586#1" expanded="true" />
-            <element signature="e#562#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/util/StartDocker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1456">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1206,13 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/common/Router.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1231,13 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1283,20 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1272">
@@ -1326,37 +1258,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="370">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#462#479#1" expanded="true" />
             <element signature="e#430#501#1" expanded="true" />
             <element signature="e#510#533#1" expanded="true" />
             <element signature="e#542#585#1" expanded="true" />
-            <element signature="e#604#1382#0" expanded="true" />
-            <element signature="e#604#1382#0" expanded="true" />
+            <element signature="e#670#1448#0" expanded="true" />
+            <element signature="e#670#1448#0" expanded="true" />
             <element signature="e#709#744#1" expanded="true" />
-            <element signature="e#681#696#0" expanded="true" />
-            <element signature="e#681#696#0" expanded="true" />
+            <element signature="e#747#762#0" expanded="true" />
+            <element signature="e#747#762#0" expanded="true" />
             <element signature="e#929#963#1" expanded="true" />
-            <element signature="e#933#947#0" expanded="true" />
-            <element signature="e#933#947#0" expanded="true" />
+            <element signature="e#999#1013#0" expanded="true" />
+            <element signature="e#999#1013#0" expanded="true" />
             <element signature="e#1130#1163#1" expanded="true" />
-            <element signature="e#1182#1196#0" expanded="true" />
-            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1248#1262#0" expanded="true" />
+            <element signature="e#1248#1262#0" expanded="true" />
             <element signature="e#1462#1486#1" expanded="true" />
-            <element signature="e#1788#1909#0" expanded="true" />
-            <element signature="e#1788#1909#0" expanded="true" />
-            <element signature="e#1875#1897#0" expanded="true" />
-            <element signature="e#1875#1897#0" expanded="true" />
-            <element signature="e#1932#2168#0" expanded="true" />
-            <element signature="e#1932#2168#0" expanded="true" />
-            <element signature="e#2066#2154#0" expanded="true" />
-            <element signature="e#2066#2154#0" expanded="true" />
+            <element signature="e#1854#1975#0" expanded="true" />
+            <element signature="e#1854#1975#0" expanded="true" />
+            <element signature="e#1941#1963#0" expanded="true" />
+            <element signature="e#1941#1963#0" expanded="true" />
+            <element signature="e#1998#2234#0" expanded="true" />
+            <element signature="e#1998#2234#0" expanded="true" />
+            <element signature="e#2132#2220#0" expanded="true" />
+            <element signature="e#2132#2220#0" expanded="true" />
+            <element signature="e#2260#2287#1" expanded="true" />
+            <element signature="e#2296#2320#1" expanded="true" />
+            <element signature="e#2578#2648#0" expanded="true" />
+            <element signature="e#2578#2648#0" expanded="true" />
+            <element signature="e#2671#2871#0" expanded="true" />
+            <element signature="e#2671#2871#0" expanded="true" />
+            <element signature="e#2769#2857#0" expanded="true" />
+            <element signature="e#2769#2857#0" expanded="true" />
             <element signature="e#440#506#1" expanded="true" />
             <element signature="e#549#586#1" expanded="true" />
             <element signature="e#562#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="e#1530#2667#0" expanded="true" />
+            <element signature="e#1534#1579#0" expanded="true" />
+            <element signature="e#1534#1579#0" expanded="true" />
+            <element signature="e#1530#2667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ClassHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#1548#1628#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="e#2101#2174#0" expanded="true" />
+            <element signature="e#2101#2174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="e#1516#2846#0" expanded="true" />
+            <element signature="e#1520#1553#0" expanded="true" />
+            <element signature="e#1520#1553#0" expanded="true" />
+            <element signature="e#1516#2846#0" expanded="true" />
+            <element signature="e#2183#2212#1" expanded="true" />
           </folding>
         </state>
       </provider>
