@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snc.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,70 +52,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+            <state relative-caret-position="1272">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java">
+      <file leaf-file-name="CSVUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="-590">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1267#1843#0" expanded="true" />
-                <element signature="e#1271#1305#0" expanded="true" />
-                <element signature="e#1271#1305#0" expanded="true" />
-                <element signature="e#1267#1843#0" expanded="true" />
-                <element signature="e#1371#1409#1" expanded="true" />
-                <element signature="e#1422#1471#1" expanded="true" />
-                <element signature="e#1484#1833#0" expanded="true" />
-                <element signature="e#1484#1833#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#462#479#1" expanded="true" />
+                <element signature="e#430#501#1" expanded="true" />
+                <element signature="e#510#533#1" expanded="true" />
+                <element signature="e#542#585#1" expanded="true" />
+                <element signature="e#604#1382#0" expanded="true" />
+                <element signature="e#604#1382#0" expanded="true" />
+                <element signature="e#709#744#1" expanded="true" />
+                <element signature="e#681#696#0" expanded="true" />
+                <element signature="e#681#696#0" expanded="true" />
+                <element signature="e#929#963#1" expanded="true" />
+                <element signature="e#933#947#0" expanded="true" />
+                <element signature="e#933#947#0" expanded="true" />
+                <element signature="e#1130#1163#1" expanded="true" />
+                <element signature="e#1182#1196#0" expanded="true" />
+                <element signature="e#1182#1196#0" expanded="true" />
+                <element signature="e#1462#1486#1" expanded="true" />
+                <element signature="e#1788#1909#0" expanded="true" />
+                <element signature="e#1788#1909#0" expanded="true" />
+                <element signature="e#1875#1897#0" expanded="true" />
+                <element signature="e#1875#1897#0" expanded="true" />
+                <element signature="e#1932#2168#0" expanded="true" />
+                <element signature="e#1932#2168#0" expanded="true" />
+                <element signature="e#2066#2154#0" expanded="true" />
+                <element signature="e#2066#2154#0" expanded="true" />
+                <element signature="e#440#506#1" expanded="true" />
+                <element signature="e#549#586#1" expanded="true" />
+                <element signature="e#562#581#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDELoginHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
+      <file leaf-file-name="CSVTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+            <state relative-caret-position="264">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
               <folding>
-                <element signature="e#1006#1035#1" expanded="true" />
-                <element signature="e#1078#1127#1" expanded="true" />
-                <element signature="e#1177#1222#1" expanded="true" />
-                <element signature="e#1231#1265#1" expanded="true" />
-                <element signature="e#1274#1303#1" expanded="true" />
-                <element signature="e#1312#1345#1" expanded="true" />
-                <element signature="e#1354#1388#1" expanded="true" />
-                <element signature="e#1474#1503#1" expanded="true" />
-                <element signature="e#3643#3663#0" expanded="true" />
-                <element signature="e#3643#3663#0" expanded="true" />
-                <element signature="e#3769#3794#0" expanded="true" />
-                <element signature="e#3769#3794#0" expanded="true" />
-                <element signature="e#3804#3834#0" expanded="true" />
-                <element signature="e#3804#3834#0" expanded="true" />
-                <element signature="e#3844#3868#0" expanded="true" />
-                <element signature="e#3844#3868#0" expanded="true" />
-                <element signature="e#3878#3905#0" expanded="true" />
-                <element signature="e#3878#3905#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#427#466#1" expanded="true" />
+                <element signature="e#475#511#1" expanded="true" />
+                <element signature="e#507#545#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDE_UUID" pinned="false" current-in-tab="false">
-        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_UUID">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -123,21 +124,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5448">
+              <caret line="227" selection-start-line="227" selection-end-line="227" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GiftHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-              <folding>
-                <element signature="e#1814#1837#1" expanded="true" />
-                <element signature="e#1850#1873#1" expanded="true" />
-                <element signature="e#1886#1953#1" expanded="true" />
-                <element signature="e#1966#1995#0" expanded="true" />
-                <element signature="e#2030#2070#1" expanded="true" />
-                <element signature="e#2083#2102#1" expanded="true" />
-                <element signature="e#2115#2170#1" expanded="true" />
-                <element signature="e#2183#2212#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="840">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -145,24 +145,8 @@
       <file leaf-file-name="ShoppcartHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="552">
               <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
-              <folding>
-                <element signature="e#1809#1858#0" expanded="true" />
-                <element signature="e#1809#1858#0" expanded="true" />
-                <element signature="e#1872#1949#0" expanded="true" />
-                <element signature="e#1872#1949#0" expanded="true" />
-                <element signature="e#1963#2018#0" expanded="true" />
-                <element signature="e#1963#2018#0" expanded="true" />
-                <element signature="e#2032#2087#0" expanded="true" />
-                <element signature="e#2032#2087#0" expanded="true" />
-                <element signature="e#2101#2174#0" expanded="true" />
-                <element signature="e#2101#2174#0" expanded="true" />
-                <element signature="e#2188#2243#0" expanded="true" />
-                <element signature="e#2188#2243#0" expanded="true" />
-                <element signature="e#2257#2314#0" expanded="true" />
-                <element signature="e#2257#2314#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -229,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/VmMapper.xml" />
-        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/GiftDao.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/GiftService.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/GiftServiceImp.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/BuyGift.java" />
@@ -270,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Add.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" />
         <option value="$PROJECT_DIR$/src/com/java/BootStart.java" />
         <option value="$PROJECT_DIR$/src/com/resources/sncconfig.properties" />
@@ -280,6 +261,9 @@
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/resources/ide/mapping/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java" />
       </list>
     </option>
   </component>
@@ -321,10 +305,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2015" />
+    <option name="x" value="2301" />
     <option name="y" value="-4" />
-    <option name="width" value="1918" />
-    <option name="height" value="1076" />
+    <option name="width" value="1438" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,8 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -442,6 +424,17 @@
               <item name="snc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ide" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -478,6 +471,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,7 +521,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BootStart">
+  <component name="RunManager" selected="JUnit.CSVTest.testWriteByStringArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -575,6 +570,52 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
+    <configuration name="CSVTest.testWriteByStringArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.server.ide.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="snc.server.ide.test" />
+      <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.CSVTest" />
+      <option name="METHOD_NAME" value="testWriteByStringArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CSVUtil.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snc.boot.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="snc.boot.util" />
+      <option name="MAIN_CLASS_NAME" value="snc.boot.util.CSVUtil" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Elasticsearch5.createCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snc" />
       <extension name="coverage">
@@ -611,52 +652,6 @@
       <option name="PACKAGE_NAME" value="snc.server.ide.test.Elasticsearch" />
       <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.Elasticsearch.Elasticsearch5" />
       <option name="METHOD_NAME" value="testjShop" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Elasticsearch5.testupsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="snc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snc.server.ide.test.Elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="snc.server.ide.test.Elasticsearch" />
-      <option name="MAIN_CLASS_NAME" value="snc.server.ide.test.Elasticsearch.Elasticsearch5" />
-      <option name="METHOD_NAME" value="testupsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test.selectByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="snc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="selectByPage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -752,19 +747,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test.selectByPage" />
-      <item itemvalue="JUnit.Elasticsearch5.testupsert" />
       <item itemvalue="JUnit.Elasticsearch5.createCart" />
       <item itemvalue="JUnit.Elasticsearch5.testjShop" />
       <item itemvalue="Application.BootStart" />
+      <item itemvalue="JUnit.CSVTest.testWriteByStringArray" />
+      <item itemvalue="JUnit.CSVUtil.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CSVTest.testWriteByStringArray" />
+        <item itemvalue="JUnit.CSVUtil.test" />
         <item itemvalue="Application.BootStart" />
         <item itemvalue="JUnit.Elasticsearch5.testjShop" />
         <item itemvalue="JUnit.Elasticsearch5.createCart" />
-        <item itemvalue="JUnit.Elasticsearch5.testupsert" />
-        <item itemvalue="JUnit.Test.selectByPage" />
       </list>
     </recent_temporary>
   </component>
@@ -845,29 +840,13 @@
       <workItem from="1548727133632" duration="2906000" />
       <workItem from="1548762226509" duration="608000" />
       <workItem from="1548899526016" duration="11000" />
-      <workItem from="1548911525469" duration="7821000" />
+      <workItem from="1548911525469" duration="13742000" />
+      <workItem from="1548983947180" duration="898000" />
+      <workItem from="1548984866028" duration="2640000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 24m 07s.xml">
-      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Elasticsearch5_createCart - 2018.11.22 at 13h 25m 47s.xml">
-      <configuration name="Elasticsearch5.createCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Elasticsearch5_createUser1 - 2018.12.05 at 21h 26m 46s.xml">
-      <configuration name="Elasticsearch5.createUser1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_selectByPage - 2019.01.01 at 20h 25m 07s.xml">
-      <configuration name="Test.selectByPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_selectByPage - 2019.01.01 at 20h 25m 38s.xml">
-      <configuration name="Test.selectByPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_selectByPage - 2019.01.01 at 20h 26m 05s.xml">
-      <configuration name="Test.selectByPage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Elasticsearch5_testupsert - 2019.01.28 at 12h 44m 47s.xml">
       <configuration name="Elasticsearch5.testupsert" configurationId="JUnit" />
     </history-entry>
@@ -880,12 +859,31 @@
     <history-entry file="Elasticsearch5_testjShop - 2019.01.28 at 13h 43m 47s.xml">
       <configuration name="Elasticsearch5.testjShop" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CSVTest_testWriteByStringArray - 2019.01.31 at 19h 50m 14s.xml">
+      <configuration name="CSVTest.testWriteByStringArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVUtil_test - 2019.02.01 at 09h 35m 52s.xml">
+      <configuration name="CSVUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVTest_testWriteByStringArray - 2019.02.01 at 09h 36m 16s.xml">
+      <configuration name="CSVTest.testWriteByStringArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVUtil_test - 2019.02.01 at 09h 36m 23s.xml">
+      <configuration name="CSVUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVUtil_test - 2019.02.01 at 09h 36m 58s.xml">
+      <configuration name="CSVUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVTest_testWriteByStringArray - 2019.02.01 at 09h 44m 41s.xml">
+      <configuration name="CSVTest.testWriteByStringArray" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243408000" />
+    <option name="totallyTimeSpent" value="252867000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3294979" />
@@ -905,17 +903,17 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38485804" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38485804" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.32912722" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32597265" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2678762" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.32912722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27427962" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32597265" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
@@ -940,17 +938,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/util/RedisOperating.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="240">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#479#1" expanded="true" />
+            <element signature="e#430#501#1" expanded="true" />
+            <element signature="e#510#533#1" expanded="true" />
+            <element signature="e#542#585#1" expanded="true" />
+            <element signature="e#604#1382#0" expanded="true" />
+            <element signature="e#604#1382#0" expanded="true" />
+            <element signature="e#709#744#1" expanded="true" />
+            <element signature="e#681#696#0" expanded="true" />
+            <element signature="e#681#696#0" expanded="true" />
+            <element signature="e#929#963#1" expanded="true" />
+            <element signature="e#933#947#0" expanded="true" />
+            <element signature="e#933#947#0" expanded="true" />
+            <element signature="e#1130#1163#1" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1462#1486#1" expanded="true" />
+            <element signature="e#1788#1909#0" expanded="true" />
+            <element signature="e#1788#1909#0" expanded="true" />
+            <element signature="e#1875#1897#0" expanded="true" />
+            <element signature="e#1875#1897#0" expanded="true" />
+            <element signature="e#1932#2168#0" expanded="true" />
+            <element signature="e#1932#2168#0" expanded="true" />
+            <element signature="e#2066#2154#0" expanded="true" />
+            <element signature="e#2066#2154#0" expanded="true" />
+            <element signature="e#440#506#1" expanded="true" />
+            <element signature="e#549#586#1" expanded="true" />
+            <element signature="e#562#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,13 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5256">
-          <caret line="219" column="30" selection-start-line="219" selection-start-column="30" selection-end-line="219" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.3/elasticsearch-5.5.3.jar!/org/elasticsearch/common/xcontent/XContentFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1063,157 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1938#2074#1" expanded="true" />
-            <element signature="e#2251#2387#0" expanded="true" />
-            <element signature="e#2251#2387#0" expanded="true" />
-            <element signature="e#2467#2500#1" expanded="true" />
-            <element signature="e#2635#2646#0" expanded="true" />
-            <element signature="e#2659#2670#0" expanded="true" />
-            <element signature="e#2682#2693#0" expanded="true" />
-            <element signature="e#2728#2741#0" expanded="true" />
-            <element signature="e#2754#2766#0" expanded="true" />
-            <element signature="e#2781#2794#0" expanded="true" />
-            <element signature="e#2829#2841#0" expanded="true" />
-            <element signature="e#2855#2867#0" expanded="true" />
-            <element signature="e#2881#2893#0" expanded="true" />
-            <element signature="e#2982#3048#0" expanded="true" />
-            <element signature="e#2982#3048#0" expanded="true" />
-            <element signature="e#3061#3167#1" expanded="true" />
-            <element signature="e#3125#3138#0" expanded="true" />
-            <element signature="e#3492#3525#1" expanded="true" />
-            <element signature="e#3664#3679#0" expanded="true" />
-            <element signature="e#3693#3706#0" expanded="true" />
-            <element signature="e#3745#3762#0" expanded="true" />
-            <element signature="e#3779#3795#0" expanded="true" />
-            <element signature="e#3814#3831#0" expanded="true" />
-            <element signature="e#3873#3892#0" expanded="true" />
-            <element signature="e#3910#3926#0" expanded="true" />
-            <element signature="e#3945#3961#0" expanded="true" />
-            <element signature="e#3987#4053#0" expanded="true" />
-            <element signature="e#3987#4053#0" expanded="true" />
-            <element signature="e#4062#4165#1" expanded="true" />
-            <element signature="e#4122#4136#0" expanded="true" />
-            <element signature="e#4248#4281#1" expanded="true" />
-            <element signature="e#4711#4777#0" expanded="true" />
-            <element signature="e#4711#4777#0" expanded="true" />
-            <element signature="e#4791#4888#1" expanded="true" />
-            <element signature="e#4980#5018#1" expanded="true" />
-            <element signature="e#5027#5047#0" expanded="true" />
-            <element signature="e#5027#5047#0" expanded="true" />
-            <element signature="e#5057#5080#0" expanded="true" />
-            <element signature="e#5057#5080#0" expanded="true" />
-            <element signature="e#5090#5116#0" expanded="true" />
-            <element signature="e#5090#5116#0" expanded="true" />
-            <element signature="e#5126#5152#0" expanded="true" />
-            <element signature="e#5126#5152#0" expanded="true" />
-            <element signature="e#5162#5184#0" expanded="true" />
-            <element signature="e#5162#5184#0" expanded="true" />
-            <element signature="e#5194#5228#0" expanded="true" />
-            <element signature="e#5194#5228#0" expanded="true" />
-            <element signature="e#5238#5271#0" expanded="true" />
-            <element signature="e#5238#5271#0" expanded="true" />
-            <element signature="e#5281#5304#0" expanded="true" />
-            <element signature="e#5281#5304#0" expanded="true" />
-            <element signature="e#5314#5335#0" expanded="true" />
-            <element signature="e#5314#5335#0" expanded="true" />
-            <element signature="e#5345#5367#0" expanded="true" />
-            <element signature="e#5345#5367#0" expanded="true" />
-            <element signature="e#5377#5402#0" expanded="true" />
-            <element signature="e#5377#5402#0" expanded="true" />
-            <element signature="e#5412#5445#1" expanded="true" />
-            <element signature="e#5586#5606#0" expanded="true" />
-            <element signature="e#5623#5642#0" expanded="true" />
-            <element signature="e#5681#5703#0" expanded="true" />
-            <element signature="e#5721#5743#0" expanded="true" />
-            <element signature="e#5761#5779#0" expanded="true" />
-            <element signature="e#5817#5835#0" expanded="true" />
-            <element signature="e#5852#5870#0" expanded="true" />
-            <element signature="e#5889#5911#0" expanded="true" />
-            <element signature="e#5953#5977#0" expanded="true" />
-            <element signature="e#5995#6016#0" expanded="true" />
-            <element signature="e#6042#6108#0" expanded="true" />
-            <element signature="e#6042#6108#0" expanded="true" />
-            <element signature="e#6117#6234#1" expanded="true" />
-            <element signature="e#6187#6205#0" expanded="true" />
-            <element signature="e#6327#6360#1" expanded="true" />
-            <element signature="e#6503#6521#0" expanded="true" />
-            <element signature="e#6540#6560#0" expanded="true" />
-            <element signature="e#6607#6673#0" expanded="true" />
-            <element signature="e#6607#6673#0" expanded="true" />
-            <element signature="e#6682#6791#1" expanded="true" />
-            <element signature="e#6744#6762#0" expanded="true" />
-            <element signature="e#6886#6911#1" expanded="true" />
-            <element signature="e#6920#6944#1" expanded="true" />
-            <element signature="e#6953#6968#1" expanded="true" />
-            <element signature="e#6977#7308#1" expanded="true" />
-            <element signature="e#7318#7361#1" expanded="true" />
-            <element signature="e#7336#7360#0" expanded="true" />
-            <element signature="e#7370#7403#1" expanded="true" />
-            <element signature="e#7383#7402#0" expanded="true" />
-            <element signature="e#7447#7484#1" expanded="true" />
-            <element signature="e#7497#7508#0" expanded="true" />
-            <element signature="e#7564#7585#0" expanded="true" />
-            <element signature="e#7600#7651#1" expanded="true" />
-            <element signature="e#7618#7639#0" expanded="true" />
-            <element signature="e#7736#7761#1" expanded="true" />
-            <element signature="e#7770#7794#1" expanded="true" />
-            <element signature="e#7804#8148#1" expanded="true" />
-            <element signature="e#8158#8201#1" expanded="true" />
-            <element signature="e#8176#8200#0" expanded="true" />
-            <element signature="e#8210#8243#1" expanded="true" />
-            <element signature="e#8223#8242#0" expanded="true" />
-            <element signature="e#8271#8286#0" expanded="true" />
-            <element signature="e#8271#8286#0" expanded="true" />
-            <element signature="e#8297#8334#1" expanded="true" />
-            <element signature="e#8347#8358#0" expanded="true" />
-            <element signature="e#8414#8435#0" expanded="true" />
-            <element signature="e#8522#8605#1" expanded="true" />
-            <element signature="e#8614#8689#1" expanded="true" />
-            <element signature="e#8698#8775#1" expanded="true" />
-            <element signature="e#8784#8973#1" expanded="true" />
-            <element signature="e#8982#9013#1" expanded="true" />
-            <element signature="e#9000#9012#0" expanded="true" />
-            <element signature="e#9022#9117#0" expanded="true" />
-            <element signature="e#9027#9040#0" expanded="true" />
-            <element signature="e#9022#9117#0" expanded="true" />
-            <element signature="e#9082#9105#0" expanded="true" />
-            <element signature="e#9213#9305#1" expanded="true" />
-            <element signature="e#9314#9482#1" expanded="true" />
-            <element signature="e#9492#9529#1" expanded="true" />
-            <element signature="e#9510#9528#0" expanded="true" />
-            <element signature="e#9544#9557#0" expanded="true" />
-            <element signature="e#9598#9621#0" expanded="true" />
-            <element signature="e#9637#9684#1" expanded="true" />
-            <element signature="e#9663#9683#0" expanded="true" />
-            <element signature="e#9703#9713#0" expanded="true" />
-            <element signature="e#9766#9790#0" expanded="true" />
-            <element signature="e#9766#9790#0" expanded="true" />
-            <element signature="e#9766#9790#0" expanded="true" />
-            <element signature="e#9778#9790#0" expanded="true" />
-            <element signature="e#9778#9790#0" expanded="true" />
-            <element signature="e#9766#9790#0" expanded="true" />
-            <element signature="e#9884#9997#1" expanded="true" />
-            <element signature="e#10006#10041#1" expanded="true" />
-            <element signature="e#10021#10040#0" expanded="true" />
-            <element signature="e#10050#10083#1" expanded="true" />
-            <element signature="e#10064#10082#0" expanded="true" />
-            <element signature="e#10092#10121#1" expanded="true" />
-            <element signature="e#10104#10120#0" expanded="true" />
-            <element signature="e#10130#10167#1" expanded="true" />
-            <element signature="e#10145#10166#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10195#10244#0" expanded="true" />
-            <element signature="e#10364#10600#1" expanded="true" />
-            <element signature="e#10609#10883#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,9 +1086,6 @@
           <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/tttt/ceshi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/shop/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1273,10 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,37 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
           <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
-          <folding>
-            <element signature="e#1178#1200#1" expanded="true" />
-            <element signature="e#1227#1261#1" expanded="true" />
-            <element signature="e#1671#1751#0" expanded="true" />
-            <element signature="e#1671#1751#0" expanded="true" />
-            <element signature="e#1862#3057#0" expanded="true" />
-            <element signature="e#1866#1889#0" expanded="true" />
-            <element signature="e#1866#1889#0" expanded="true" />
-            <element signature="e#1862#3057#0" expanded="true" />
-            <element signature="e#3071#3647#0" expanded="true" />
-            <element signature="e#3071#3647#0" expanded="true" />
-            <element signature="e#4261#4323#0" expanded="true" />
-            <element signature="e#4261#4323#0" expanded="true" />
-            <element signature="e#4332#4380#0" expanded="true" />
-            <element signature="e#4332#4380#0" expanded="true" />
-            <element signature="e#4479#5691#0" expanded="true" />
-            <element signature="e#4479#5691#0" expanded="true" />
-            <element signature="e#4566#4586#0" expanded="true" />
-            <element signature="e#4666#4786#0" expanded="true" />
-            <element signature="e#4666#4786#0" expanded="true" />
-            <element signature="e#4814#4899#0" expanded="true" />
-            <element signature="e#4814#4899#0" expanded="true" />
-            <element signature="e#5535#5536#0" expanded="true" />
-            <element signature="e#5571#5572#0" expanded="true" />
-            <element signature="e#5619#5620#0" expanded="true" />
-            <element signature="e#5658#5659#0" expanded="true" />
-            <element signature="e#5707#5708#0" expanded="true" />
-            <element signature="e#5747#5748#0" expanded="true" />
-            <element signature="e#5789#5790#0" expanded="true" />
-            <element signature="e#5819#5820#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,9 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="41" column="31" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="e#912#933#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,9 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,16 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="e#1353#1422#1" expanded="true" />
-            <element signature="e#1450#1468#0" expanded="true" />
-            <element signature="e#1484#1494#0" expanded="true" />
-            <element signature="e#1520#1551#1" expanded="true" />
-            <element signature="e#1539#1550#0" expanded="true" />
-            <element signature="e#1586#1644#1" expanded="true" />
-            <element signature="e#1611#1643#0" expanded="true" />
-            <element signature="e#1694#1788#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,10 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,18 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1267#1843#0" expanded="true" />
-            <element signature="e#1271#1305#0" expanded="true" />
-            <element signature="e#1271#1305#0" expanded="true" />
-            <element signature="e#1267#1843#0" expanded="true" />
-            <element signature="e#1371#1409#1" expanded="true" />
-            <element signature="e#1422#1471#1" expanded="true" />
-            <element signature="e#1484#1833#0" expanded="true" />
-            <element signature="e#1484#1833#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1452,26 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
-          <folding>
-            <element signature="e#1006#1035#1" expanded="true" />
-            <element signature="e#1078#1127#1" expanded="true" />
-            <element signature="e#1177#1222#1" expanded="true" />
-            <element signature="e#1231#1265#1" expanded="true" />
-            <element signature="e#1274#1303#1" expanded="true" />
-            <element signature="e#1312#1345#1" expanded="true" />
-            <element signature="e#1354#1388#1" expanded="true" />
-            <element signature="e#1474#1503#1" expanded="true" />
-            <element signature="e#3643#3663#0" expanded="true" />
-            <element signature="e#3643#3663#0" expanded="true" />
-            <element signature="e#3769#3794#0" expanded="true" />
-            <element signature="e#3769#3794#0" expanded="true" />
-            <element signature="e#3804#3834#0" expanded="true" />
-            <element signature="e#3804#3834#0" expanded="true" />
-            <element signature="e#3844#3868#0" expanded="true" />
-            <element signature="e#3844#3868#0" expanded="true" />
-            <element signature="e#3878#3905#0" expanded="true" />
-            <element signature="e#3878#3905#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1512,48 +1285,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-          <folding>
-            <element signature="e#1814#1837#1" expanded="true" />
-            <element signature="e#1850#1873#1" expanded="true" />
-            <element signature="e#1886#1953#1" expanded="true" />
-            <element signature="e#1966#1995#0" expanded="true" />
-            <element signature="e#2030#2070#1" expanded="true" />
-            <element signature="e#2083#2102#1" expanded="true" />
-            <element signature="e#2115#2170#1" expanded="true" />
-            <element signature="e#2183#2212#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="552">
           <caret line="51" column="45" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="45" />
-          <folding>
-            <element signature="e#1809#1858#0" expanded="true" />
-            <element signature="e#1809#1858#0" expanded="true" />
-            <element signature="e#1872#1949#0" expanded="true" />
-            <element signature="e#1872#1949#0" expanded="true" />
-            <element signature="e#1963#2018#0" expanded="true" />
-            <element signature="e#1963#2018#0" expanded="true" />
-            <element signature="e#2032#2087#0" expanded="true" />
-            <element signature="e#2032#2087#0" expanded="true" />
-            <element signature="e#2101#2174#0" expanded="true" />
-            <element signature="e#2101#2174#0" expanded="true" />
-            <element signature="e#2188#2243#0" expanded="true" />
-            <element signature="e#2188#2243#0" expanded="true" />
-            <element signature="e#2257#2314#0" expanded="true" />
-            <element signature="e#2257#2314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        <state relative-caret-position="1272">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5448">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#466#1" expanded="true" />
+            <element signature="e#475#511#1" expanded="true" />
+            <element signature="e#507#545#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#479#1" expanded="true" />
+            <element signature="e#430#501#1" expanded="true" />
+            <element signature="e#510#533#1" expanded="true" />
+            <element signature="e#542#585#1" expanded="true" />
+            <element signature="e#604#1382#0" expanded="true" />
+            <element signature="e#604#1382#0" expanded="true" />
+            <element signature="e#709#744#1" expanded="true" />
+            <element signature="e#681#696#0" expanded="true" />
+            <element signature="e#681#696#0" expanded="true" />
+            <element signature="e#929#963#1" expanded="true" />
+            <element signature="e#933#947#0" expanded="true" />
+            <element signature="e#933#947#0" expanded="true" />
+            <element signature="e#1130#1163#1" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1182#1196#0" expanded="true" />
+            <element signature="e#1462#1486#1" expanded="true" />
+            <element signature="e#1788#1909#0" expanded="true" />
+            <element signature="e#1788#1909#0" expanded="true" />
+            <element signature="e#1875#1897#0" expanded="true" />
+            <element signature="e#1875#1897#0" expanded="true" />
+            <element signature="e#1932#2168#0" expanded="true" />
+            <element signature="e#1932#2168#0" expanded="true" />
+            <element signature="e#2066#2154#0" expanded="true" />
+            <element signature="e#2066#2154#0" expanded="true" />
+            <element signature="e#440#506#1" expanded="true" />
+            <element signature="e#549#586#1" expanded="true" />
+            <element signature="e#562#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
