@@ -102,7 +102,6 @@ public class IDELoginHandler {
         userInfo.setDockerid(dockerid);
         userInfo.setIde_id(uuid);
         userInfo.setPort(debugPort);
-
         data = JSON.toJSONString(userInfo);
         status.setData(data);
         status.setResult("0");

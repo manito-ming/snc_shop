@@ -17,8 +17,6 @@ import java.util.List;
 
 public class Add {                //点击加入购物车时的redis流程，购物车的数据存储
 
-
-
    private Jedis jedis = GetJedis.getJedis();
 
     public void add(Commodity commodity){//考虑到购买同一个商品但是商品的属性不同，那么购物车也会显示不同属性，所以redis的key不能以商品id，而是应该以所有属性合起来来的字符串为key

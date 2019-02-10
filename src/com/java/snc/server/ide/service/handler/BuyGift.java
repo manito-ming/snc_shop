@@ -1,4 +1,4 @@
-package snc.server.ide.test;
+package snc.server.ide.service.handler;
 
 import com.sun.javafx.iio.gif.GIFDescriptor;
 import org.apache.ibatis.session.SqlSession;

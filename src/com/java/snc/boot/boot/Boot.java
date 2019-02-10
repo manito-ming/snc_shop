@@ -30,8 +30,6 @@ public class Boot {
     private static String USE_SPRING;
 
     private static Logger logger = Logger.getLogger(Boot.class);
-    private static String ES_SHELL_PATH;
-    private static Boolean ES_is_start = false;
 
     private static boolean init(){
         if (init) {
@@ -44,14 +42,9 @@ public class Boot {
             ARGS = pps.getProperty("args");
             WEBSOCKET_URL = pps.getProperty("websocket.url");
             USE_SPRING = pps.getProperty("usespring");
-            ES_SHELL_PATH = pps.getProperty("es.path");
 
             if (BaseString.isEmpty(ARGS)) {
                 ARGS = ALL_STRING;
-            }
-
-            if (BaseString.isEmpty(ES_SHELL_PATH)){
-                error = true;
             }
 
             if (ALL_STRING.equals(ARGS)) {
@@ -117,16 +110,6 @@ public class Boot {
 
     public static void start(){
         if (init()) {
-            if (!ES_is_start){
-                try {
-                    Runtime.getRuntime().exec(ES_SHELL_PATH);
-                    ES_is_start = true;
-                } catch (IOException e) {
-                    logger.error("es open error");
-                    return;
-                }
-            }
-
             if (USE_SPRING.equals("true")) {
                 ServiceManager.init();
             }
