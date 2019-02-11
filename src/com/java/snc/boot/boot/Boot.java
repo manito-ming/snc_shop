@@ -2,6 +2,7 @@ package snc.boot.boot;
 
 import snc.boot.connector.IDEServerConnector;
 import snc.boot.connector.ShopServerConnector;
+import snc.boot.util.es.ElasticsearchService;
 import snc.boot.util.common.BaseString;
 import org.apache.log4j.Logger;
 
@@ -28,8 +29,11 @@ public class Boot {
     private static String ARGS;
     private static String WEBSOCKET_URL;
     private static String USE_SPRING;
-
+    private static String ES_IP;
+    private static String ES_PORT;
+    private ElasticsearchService elasticsearchService = null;
     private static Logger logger = Logger.getLogger(Boot.class);
+    private static String ES_Cluster_Name;
 
     private static boolean init(){
         if (init) {
@@ -42,9 +46,17 @@ public class Boot {
             ARGS = pps.getProperty("args");
             WEBSOCKET_URL = pps.getProperty("websocket.url");
             USE_SPRING = pps.getProperty("usespring");
+            ES_IP = pps.getProperty("es.ip");
+            ES_PORT = pps.getProperty("es.port");
+            ES_Cluster_Name = pps.getProperty("es.cluster.name");
 
             if (BaseString.isEmpty(ARGS)) {
                 ARGS = ALL_STRING;
+            }
+
+            if (BaseString.isEmpty(ES_IP) && BaseString.isEmpty(ES_PORT) && BaseString.isEmpty(ES_Cluster_Name)) {
+                error = true;
+                logger.error("elasticsearch ip & port is null!");
             }
 
             if (ALL_STRING.equals(ARGS)) {
@@ -98,6 +110,8 @@ public class Boot {
                 }
             }
 
+
+
         } catch (IOException e) {
             logger.error(e);
         }
@@ -113,6 +127,9 @@ public class Boot {
             if (USE_SPRING.equals("true")) {
                 ServiceManager.init();
             }
+
+
+
             if (Boot.ARGS.equals(Boot.ALL_STRING)) {
                 IDEServerConnector iconnector = new IDEServerConnector(Boot.IDE_IP,Boot.IDE_PORT);
                 ShopServerConnector sconnector = new ShopServerConnector(Boot.SHOP_IP, Boot.SHOP_PORT);

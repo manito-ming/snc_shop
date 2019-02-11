@@ -46,8 +46,6 @@ public class GiftHandler extends ChannelInboundHandlerAdapter {
         switch (uri) {
             case "/snc/buy/gift":
                 break;
-            case "/snc/buy/gift/":
-                break;
         }
 
         if (fhr.uri().equals("/snc/buy/gift")) {

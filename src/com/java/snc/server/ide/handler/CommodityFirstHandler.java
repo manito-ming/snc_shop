@@ -39,7 +39,8 @@ public class CommodityFirstHandler extends ChannelInboundHandlerAdapter{
             System.out.println(jsonArray);
             json = "{\"res\":\"true\",\"list\":" + jsonArray + ",,\"date\":" + ft.format(dNow) + "}";
             Router.sendMessage("0", json, ctx);
-
+        } else {
+            ctx.fireChannelRead(msg);
         }
     }
 }

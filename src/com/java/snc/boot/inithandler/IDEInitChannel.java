@@ -18,7 +18,6 @@ public class IDEInitChannel extends ChannelInitializer<SocketChannel> {
         sc.pipeline().addLast(new HttpRequestDecoder());
         sc.pipeline().addLast(new HttpResponseEncoder());
         sc.pipeline().addLast(new HttpObjectAggregator(65535));
-//        sc.pipeline().addLast(new WebSocketHandler());
         sc.pipeline().addLast(new ChunkedWriteHandler());
         Router.init(Boot.getIdePackageName(),sc);
     }
