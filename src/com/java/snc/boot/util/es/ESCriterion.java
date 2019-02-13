@@ -3,6 +3,7 @@ package snc.boot.util.es;
 import java.util.List;
 import org.elasticsearch.index.query.QueryBuilder;
 public interface ESCriterion {
+    //TERM 单个条件查询　　TERMS多个条件查询　RANGE范围
     public enum Operator{
         TERM, TERMS, RANGE, FUZZY, QUERY_STRING, MISSING
     }

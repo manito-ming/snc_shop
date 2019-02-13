@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+=======
     <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/connector/IBaseConnector.java" afterDir="false" />
@@ -109,6 +112,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/sncconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sncconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
+>>>>>>> up/master
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,8 +149,22 @@
       <file leaf-file-name="Elasticsearch5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="216">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+=======
             <state relative-caret-position="282">
               <caret line="277" column="49" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="49" />
+>>>>>>> up/master
               <folding>
                 <element signature="e#5762#5800#1" expanded="true" />
                 <element signature="e#7687#7712#1" expanded="true" />
@@ -170,6 +188,13 @@
       <file leaf-file-name="ElasticsearchService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="486">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding>
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+=======
             <state relative-caret-position="214">
               <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
               <folding>
@@ -196,11 +221,19 @@
                 <element signature="e#7725#7778#1" expanded="true" />
                 <element signature="e#7760#7777#0" expanded="true" />
                 <element signature="e#7848#7940#1" expanded="true" />
+>>>>>>> up/master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="IDELoginHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+=======
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -214,10 +247,32 @@
                 <element signature="e#805#834#0" expanded="true" />
                 <element signature="e#965#980#0" expanded="true" />
               </folding>
+>>>>>>> up/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="IDE_docker" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_docker">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> up/master
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -347,10 +402,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="648" />
+    <option name="y" value="27" />
+    <option name="width" value="1272" />
+    <option name="height" value="1029" />
+=======
     <option name="x" value="1919" />
     <option name="y" value="-11" />
     <option name="width" value="1922" />
     <option name="height" value="1092" />
+>>>>>>> up/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -358,12 +420,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="AndroidView" />
+=======
       <pane id="Scope" />
+>>>>>>> up/master
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
+              <item name="snc_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc_shop" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="snc" type="b2602c69:ProjectViewProjectNode" />
               <item name="snc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -513,12 +583,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> up/master
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
       <pane id="AndroidView" />
+>>>>>>> up/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,11 +603,16 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+=======
     <property name="last_opened_file_path" value="$USER_HOME$/下载/book" />
     <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> up/master
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.38011697" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -874,6 +954,10 @@
       <workItem from="1548727133632" duration="2906000" />
       <workItem from="1548762226509" duration="608000" />
       <workItem from="1548899526016" duration="11000" />
+<<<<<<< HEAD
+      <workItem from="1548911525469" duration="5390000" />
+      <workItem from="1550050749093" duration="453000" />
+=======
       <workItem from="1548911525469" duration="13742000" />
       <workItem from="1548983947180" duration="898000" />
       <workItem from="1548984866028" duration="4381000" />
@@ -884,6 +968,7 @@
       <workItem from="1549851282945" duration="7234000" />
       <workItem from="1549867710906" duration="340000" />
       <workItem from="1549868323068" duration="4552000" />
+>>>>>>> up/master
     </task>
     <servers />
   </component>
@@ -920,6 +1005,45 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="241430000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3294979" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3271078" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38485804" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.46130502" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27056876" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.081170626" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39748955" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32597265" />
+      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32176656" />
+=======
     <option name="totallyTimeSpent" value="282150000" />
   </component>
   <component name="ToolWindowManager">
@@ -958,6 +1082,7 @@
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32597265" />
       <window_info id="Nl-Palette" order="6" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> up/master
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3253138" />
@@ -965,6 +1090,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -979,6 +1114,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Data.java">
+=======
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -987,6 +1125,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/GiftInterfaceHandler.java">
+>>>>>>> up/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
@@ -1135,8 +1274,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/model/entity/BaseUser.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="888">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+=======
         <state relative-caret-position="144">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -1191,6 +1335,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="144">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+=======
         <state relative-caret-position="1014">
           <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
           <folding>
@@ -1217,6 +1365,7 @@
             <element signature="e#5275#5276#0" expanded="true" />
             <element signature="e#5314#5315#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -1235,8 +1384,13 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.3/elasticsearch-5.5.3.jar!/org/elasticsearch/search/aggregations/bucket/terms/Terms.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-312">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+=======
         <state relative-caret-position="569">
           <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -1273,8 +1427,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="176">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="31" />
+=======
         <state relative-caret-position="672">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2185,18 +2344,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2466">
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+=======
         <state relative-caret-position="350">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/jdk1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="216">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+=======
         <state relative-caret-position="184">
           <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
           <folding>
             <element signature="e#9739#9740#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2223,16 +2392,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="682">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+=======
         <state relative-caret-position="408">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+=======
         <state relative-caret-position="70">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
           <folding>
@@ -2241,6 +2419,7 @@
             <element signature="e#1593#1594#0" expanded="true" />
             <element signature="e#1620#1621#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2300,8 +2479,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="126">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+=======
         <state relative-caret-position="214">
           <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+>>>>>>> up/master
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6438#6491#1" expanded="true" />
@@ -2332,6 +2516,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="486">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+=======
         <state relative-caret-position="282">
           <caret line="277" column="49" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="49" />
           <folding>
@@ -2349,12 +2540,24 @@
             <element signature="e#10535#10724#1" expanded="true" />
             <element signature="e#10964#11056#1" expanded="true" />
             <element signature="e#11065#11233#1" expanded="true" />
+>>>>>>> up/master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="18">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+=======
         <state relative-caret-position="360">
           <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
@@ -2365,6 +2568,7 @@
             <element signature="e#805#834#0" expanded="true" />
             <element signature="e#965#980#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
