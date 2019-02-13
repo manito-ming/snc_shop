@@ -61,4 +61,6 @@ public class FinalTable {
 
     public final static String NO_ERROR="0";
     public final static String ERROR="1";
+
+    public final static String COMMODITY_PAGE="page";
 }

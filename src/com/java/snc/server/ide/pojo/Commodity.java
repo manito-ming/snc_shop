@@ -3,73 +3,49 @@ package snc.server.ide.pojo;
 public class Commodity {
 
     private String pid;              //用户唯一id
-    private String sid;               //礼物id
-    private int num;               //购买数量
-    private int price;             //价格
-    private String col;            //商品颜色
-    private String mod;            //型号
-    private String size;              //大小
-    private String commodity;         //属性
-    private String c_brand;
-    private String c_stock;
-    private String c_sold;
-    private String c_image;
-    private String c_details;
-    private String c_type;
-
-    public String getC_brand() {
-        return c_brand;
-    }
-
-    public void setC_brand(String c_brand) {
-        this.c_brand = c_brand;
-    }
 
     public String getC_stock() {
         return c_stock;
     }
 
-    public void setC_stock(String c_stock) {
-        this.c_stock = c_stock;
-    }
+    private String sid;               //礼物id
+    private int num;               //购买数量
+    private double price;
+    private String col;            //商品颜色
+    private String mod;            //型号
+    private String size;              //大小
+//    private String commodity;         //属性
+    private String c_brand;
+    private String c_image;
+    private String c_type;
+    private String c_details;
+    private String c_stock;
 
-    public String getC_sold() {
-        return c_sold;
-    }
-
-    public void setC_sold(String c_sold) {
-        this.c_sold = c_sold;
+    public String getC_brand() {
+        return c_brand;
     }
 
     public String getC_image() {
         return c_image;
     }
 
-    public void setC_image(String c_image) {
-        this.c_image = c_image;
+    public String getC_type() {
+        return c_type;
     }
 
     public String getC_details() {
         return c_details;
     }
 
-    public void setC_details(String c_details) {
-        this.c_details = c_details;
-    }
-
-    public String getC_type() {
-        return c_type;
-    }
-
-    public void setC_type(String c_type) {
-        this.c_type = c_type;
+    public void setC_drtails(String c_drtails) {
+        this.c_details = c_drtails;
     }
 
     public String getPid() {
         return pid;
     }
 
-    public void setPid(String pidd) {
+    public void setPid(String pid) {
         this.pid = pid;
     }
 
@@ -113,18 +89,38 @@ public class Commodity {
         this.size = size;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
-    public String getCommodity() {
-        return commodity;
+
+    public void setC_brand(String brand) {//联想
+        this.c_brand=brand;
     }
 
-    public void setCommodity(String commodity) {
-        this.commodity = commodity;
+    public void setC_stock(String s) {
+        this.c_stock=s;
     }
+
+    public void setC_details(String details) {
+        this.c_details=details;
+    }
+
+    public void setC_image(String image) {
+        this.c_image=image;
+    }
+
+    public void setC_type(String type) {
+        this.c_type=type;
+    }
+//    public String getCommodity() {
+//        return commodity;
+//    }
+//
+//    public void setCommodity(String commodity) {
+//        this.commodity = commodity;
+//    }
 }

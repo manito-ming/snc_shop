@@ -46,8 +46,8 @@ public class LoginHandler extends ChannelInboundHandlerAdapter {
                     break;
                 case "shop":
                     ShopLoginHandler Slogin = new ShopLoginHandler();
-
                     break;
+
             }
         }
     }

@@ -1,4 +1,4 @@
-package snc.server.ide.test;
+package snc.server.ide.service.handler;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -16,8 +16,6 @@ import java.sql.ResultSet;
 import java.util.List;
 
 public class Add {                //点击加入购物车时的redis流程，购物车的数据存储
-
-
 
    private Jedis jedis = GetJedis.getJedis();
 
@@ -59,8 +57,6 @@ public class Add {                //点击加入购物车时的redis流程，购
 //
             return String.valueOf(strings);
 
-
-
 //        return String.valueOf(strings);
 
     }
@@ -84,7 +80,6 @@ public class Add {                //点击加入购物车时的redis流程，购
         }else {
             return false;
         }
-
     }
     public String product(String s){
         JSONObject jsonObj = JSON.parseObject(s);

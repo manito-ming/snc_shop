@@ -32,6 +32,8 @@ import snc.server.ide.tttt.pojo.User;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
@@ -42,11 +44,30 @@ public class Elasticsearch5 {
     public static TransportClient client = null;
     public final static String HOST = "127.0.0.1";
     public final static int PORT = 9300;
-     InetSocketTransportAddress node =null;
+    private static InetSocketTransportAddress node =null;
+
+    static  {
+        {
+
+            try {
+                System.setProperty("es.set.netty.runtime.available.processors", "false");
+                node = new InetSocketTransportAddress(InetAddress.getByName(HOST), PORT);
+                Settings settings = Settings.builder()
+                        .put("cluster.name", "elasticsearch")
+                        .build();
+                client = new PreBuiltTransportClient(settings);
+                client.addTransportAddress(node);
+                System.out.println("创建成功");
+            } catch (UnknownHostException e) {
+                System.out.println("创建数据库中出现错误");
+                e.printStackTrace();
+            }
+        }
+    }
      //创建连接
      @Before
-     public void getClient() {
-         {
+     public static TransportClient getClient() {
+
              try {
                  node = new InetSocketTransportAddress(InetAddress.getByName(HOST), PORT);
                  Settings settings = Settings.builder()
@@ -55,12 +76,11 @@ public class Elasticsearch5 {
                  client = new PreBuiltTransportClient(settings);
                  client.addTransportAddress(node);
                  System.out.println("创建成功");
+                 return client;
              } catch (UnknownHostException e) {
                  System.out.println("创建数据库中出现错误");
-                 e.printStackTrace();
+                 return null;
              }
-         }
-
      }
      //创建用户
     public  void createUser(User user){
@@ -129,14 +149,14 @@ public class Elasticsearch5 {
     public  void createCart(){
         Commodity commodity = new Commodity();
         commodity.setNum(22);
-        commodity.setPrice(200);
-        commodity.setC_brand("联想");
+        commodity.setPrice(2500);
+        commodity.setC_brand("戴尔");
         commodity.setC_stock("10");
-        commodity.setCol("黑色");
+        commodity.setCol("红色");
         commodity.setC_details("这个产品售后很好");
         commodity.setC_image("/home/mmz");
         commodity.setMod("asd");
-        commodity.setSid("3");
+        commodity.setSid("15");
         commodity.setSize("小");
         commodity.setC_type("电脑");
         XContentBuilder jsonBuild = null;
@@ -171,6 +191,36 @@ public class Elasticsearch5 {
     }
 
     //分页,排序
+    @Test
+    public List CommodityFirst(String page)
+    {
+        String index="commodity";
+        String type="commodity";
+        String pt="20";
+        SearchResponse searchResponse = client.prepareSearch(index)
+                .setTypes(type)
+                .setQuery(QueryBuilders.matchAllQuery())
+                .setSearchType(SearchType.QUERY_THEN_FETCH)
+                .setFrom((Integer.parseInt(page)-1)*10).setSize(10)//分页,设置分页的大小和展示第几页
+//                .addSort("c_price", SortOrder.DESC)//排序
+                .get();
+        SearchHits hits = searchResponse.getHits();
+        long total = hits.getTotalHits();
+        System.out.println(total);
+        SearchHit[] searchHits = hits.hits();
+        List list=new ArrayList();
+
+        for(SearchHit s : searchHits)
+        {
+            String json = s.getSourceAsString();
+            list.add(json);
+            System.out.println(s.getSourceAsString());
+
+        }
+        return list;
+    }
+
+
     @Test
     public void testShop()
     {

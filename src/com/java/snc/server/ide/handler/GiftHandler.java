@@ -11,11 +11,9 @@ import org.springframework.stereotype.Controller;
 import snc.boot.util.FinalTable;
 import snc.boot.util.common.Router;
 import snc.server.ide.pojo.Gift;
-import snc.server.ide.service.ClassService;
 import snc.server.ide.service.GiftService;
-import snc.server.ide.service.UserInfoService;
-import snc.server.ide.test.BuyGift;
-import snc.server.ide.test.Course;
+import snc.server.ide.service.handler.BuyGift;
+
 import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -24,12 +22,13 @@ import java.util.Random;
 @Controller
 public class GiftHandler extends ChannelInboundHandlerAdapter {
     Logger logger = Logger.getLogger(ClassHandler.class);
-    public  String json;
+    public String json;
     private static GiftHandler giftHandler;
     @Autowired
-            private GiftService giftService;
+    private GiftService giftService;
+
     @PostConstruct
-    public void init(){
+    public void init() {
         giftHandler = this;
     }
 
@@ -42,10 +41,17 @@ public class GiftHandler extends ChannelInboundHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         FullHttpRequest fhr = (FullHttpRequest) msg;
         FullHttpResponse response = null;
+        String uri = fhr.uri();
+
+        switch (uri) {
+            case "/snc/buy/gift":
+                break;
+        }
+
         if (fhr.uri().equals("/snc/buy/gift")) {
             logger.info("/snc/buy/gift is success");
             JSONObject jsonObject = Router.getMessage(fhr);
-            String  pid = jsonObject.getString(FinalTable.UUID);
+            String pid = jsonObject.getString(FinalTable.UUID);
             String gid = jsonObject.getString(FinalTable.GIFT_ID);
             Gift gift = new Gift();
             Date date = new Date();
@@ -67,11 +73,10 @@ public class GiftHandler extends ChannelInboundHandlerAdapter {
                 json = "{\"res\":\"false\",\"data\":\"" + dd + "\",\"orderid\":\"" + orderId + "\"}";
 
             }
-            Router.sendMessage("0",json,ctx);
+            Router.sendMessage("0", json, ctx);
 
-        }else {
+        } else {
             ctx.fireChannelRead(msg);
         }
-        }
     }
-//}
+}
