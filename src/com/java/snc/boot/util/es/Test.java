@@ -1,10 +1,6 @@
 package snc.boot.util.es;
 
-import org.elasticsearch.action.index.IndexResponse;
-import org.elasticsearch.common.xcontent.XContentBuilder;
-import snc.server.ide.pojo.Commodity;
-
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -16,7 +12,10 @@ public class Test {
         try {
             ElasticsearchService service = new ElasticsearchService("elasticsearch", "127.0.0.1", 9300);
             ESQueryBuilderConstructor constructor = new ESQueryBuilderConstructor();
-            constructor.mutilsearch(new ESQueryBuilders().term("c_type","电脑"));
+            List<String> lists = new ArrayList<>();
+            lists.add("c_brand");
+            lists.add("c_type");
+            constructor.mutilsearch(new ESQueryBuilders().multiMatch("三",lists));
             constructor.setSize(15);  //查询返回条数，最大 10000
             constructor.setAsc("c_price");
             List<Map<String, Object>> list = service.search("commodity", "commodity", constructor);
@@ -24,5 +23,25 @@ public class Test {
         } catch (Exception e) {
             e.printStackTrace();
         }
+//        ElasticsearchService service = new ElasticsearchService("elasticsearch", "127.0.0.1", 9300);
+//        MultiMatchQueryBuilder builder = QueryBuilders.multiMatchQuery("三星", "c_type", "c_details","c_brand");
+//        SearchResponse response = service.getClient().prepareSearch("commodity").setTypes("commodity")
+//                .setQuery(builder)
+//                .setSize(3)
+//                .get();
+
+//        MultiSearchRequest request = service.getClient().multiSearch()
+
+//        SearchHits hits = response.getHits();
+//
+//        for (SearchHit hit : hits){
+//            System.out.println(hit.getSourceAsString());
+//
+//            Map<String, Object> map = hit.getSourceAsMap();
+//
+//            for (String key : map.keySet()){
+//                System.out.println(key +" = " +map.get(key));
+//            }
+//        }
     }
 }

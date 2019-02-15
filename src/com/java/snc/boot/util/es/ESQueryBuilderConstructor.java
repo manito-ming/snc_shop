@@ -6,7 +6,9 @@ import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.MultiMatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.index.search.MultiMatchQuery;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,14 +26,13 @@ public class ESQueryBuilderConstructor {
     private List<ESCriterion> mustCriterions = new ArrayList<>();
     private List<ESCriterion> shouldCriterions = new ArrayList<>();
     private List<ESCriterion> mustNotCriterions = new ArrayList<>();
-    private List<ESCriterion> mutilSearchCriterions=new ArrayList<>();
+    private List<ESCriterion> mutilSearchCriterions = new ArrayList<>();
 
     //构造builder
     public QueryBuilder listBuilders() {
         int count = mustCriterions.size() + shouldCriterions.size() + mustNotCriterions.size() + mutilSearchCriterions.size();
         BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
         QueryBuilder queryBuilder = null;
-        MultiMatchQueryBuilder multiMatchQueryBuilder = null;
         if (count >= 1) {
             //must容器
             if (!CollectionUtils.isEmpty(mustCriterions)) {
@@ -59,21 +60,22 @@ public class ESQueryBuilderConstructor {
                 }
             }
 
-//            if (!CollectionUtils.isEmpty(mutilSearchCriterions)) {
-//                for (ESCriterion criterion : mutilSearchCriterions) {
-//                    for (QueryBuilder builder : criterion.listBuilders()) {
-//
-//                    }
-//                }
-//            }
+            //multi 容器
+            if (!CollectionUtils.isEmpty(mutilSearchCriterions)) {
+                for (ESCriterion criterion : mutilSearchCriterions) {
+                    for (QueryBuilder builder : criterion.listBuilders()) {
+                        queryBuilder = builder;
+                    }
+                }
+            }
             return queryBuilder;
         } else {
             return null;
         }
     }
 
-    public ESQueryBuilderConstructor mutilsearch(ESCriterion criterion){
-        if(criterion!=null){
+    public ESQueryBuilderConstructor mutilsearch(ESCriterion criterion) {
+        if (criterion != null) {
             mutilSearchCriterions.add(criterion);
         }
         return this;
@@ -82,26 +84,28 @@ public class ESQueryBuilderConstructor {
     /**
      * 增加简单条件表达式
      */
-    public ESQueryBuilderConstructor must(ESCriterion criterion){
-        if(criterion!=null){
+    public ESQueryBuilderConstructor must(ESCriterion criterion) {
+        if (criterion != null) {
             mustCriterions.add(criterion);
         }
         return this;
     }
+
     /**
      * 增加简单条件表达式
      */
-    public ESQueryBuilderConstructor should(ESCriterion criterion){
-        if(criterion!=null){
+    public ESQueryBuilderConstructor should(ESCriterion criterion) {
+        if (criterion != null) {
             shouldCriterions.add(criterion);
         }
         return this;
     }
+
     /**
      * 增加简单条件表达式
      */
-    public ESQueryBuilderConstructor mustNot(ESCriterion criterion){
-        if(criterion!=null){
+    public ESQueryBuilderConstructor mustNot(ESCriterion criterion) {
+        if (criterion != null) {
             mustNotCriterions.add(criterion);
         }
         return this;

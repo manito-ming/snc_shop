@@ -11,6 +11,7 @@ import org.elasticsearch.action.bulk.BulkRequestBuilder;
 import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.MultiSearchRequestBuilder;
 import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.update.UpdateRequest;
@@ -19,7 +20,9 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.index.query.MultiMatchQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.index.search.MultiMatchQuery;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.aggregations.AggregationBuilder;
@@ -36,7 +39,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ElasticsearchService {
-//    private static Logger logger = Logger.getLogger(ElasticsearchService.class);
+    //    private static Logger logger = Logger.getLogger(ElasticsearchService.class);
     private TransportClient client;
     private final static int MAX = 10000;
 
@@ -52,6 +55,7 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：新建索引
+     *
      * @param indexName 索引名
      */
     public void createIndex(String indexName) {
@@ -61,8 +65,9 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：新建索引
+     *
      * @param index 索引名
-     * @param type 类型
+     * @param type  类型
      */
     public void createIndex(String index, String type) {
         client.prepareIndex(index, type).setSource().get();
@@ -70,6 +75,7 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：删除索引
+     *
      * @param index 索引名
      */
     public void deleteIndex(String index) {
@@ -88,6 +94,7 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：验证索引是否存在
+     *
      * @param index 索引名
      */
     public boolean indexExist(String index) {
@@ -99,9 +106,10 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：插入数据
+     *
      * @param index 索引名
-     * @param type 类型
-     * @param json 数据
+     * @param type  类型
+     * @param json  数据
      */
     public void insertData(String index, String type, XContentBuilder json) {
         IndexResponse response = client.prepareIndex(index, type)
@@ -111,10 +119,11 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：插入数据
+     *
      * @param index 索引名
-     * @param type 类型
-     * @param _id 数据id
-     * @param json 数据
+     * @param type  类型
+     * @param _id   数据id
+     * @param json  数据
      */
     public void insertData(String index, String type, String _id, String json) {
         IndexResponse response = client.prepareIndex(index, type).setId(_id)
@@ -124,10 +133,11 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：更新数据
+     *
      * @param index 索引名
-     * @param type 类型
-     * @param _id 数据id
-     * @param json 数据
+     * @param type  类型
+     * @param _id   数据id
+     * @param json  数据
      */
     public void updateData(String index, String type, String _id, String json) throws Exception {
         try {
@@ -135,16 +145,17 @@ public class ElasticsearchService {
                     .doc(json);
             client.update(updateRequest).get();
         } catch (Exception e) {
-            System.out.println("update data failed."+ e);
+            System.out.println("update data failed." + e);
 //            logger.error("update data failed.", e);
         }
     }
 
     /**
      * 功能描述：删除数据
+     *
      * @param index 索引名
-     * @param type 类型
-     * @param _id 数据id
+     * @param type  类型
+     * @param _id   数据id
      */
     public void deleteData(String index, String type, String _id) {
         DeleteResponse response = client.prepareDelete(index, type, _id)
@@ -153,9 +164,10 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：批量插入数据
+     *
      * @param index 索引名
-     * @param type 类型
-     * @param data (_id 主键, json 数据)
+     * @param type  类型
+     * @param data  (_id 主键, json 数据)
      */
     public void bulkInsertData(String index, String type, Map<String, String> data) {
         BulkRequestBuilder bulkRequest = client.prepareBulk();
@@ -169,8 +181,9 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：批量插入数据
-     * @param index 索引名
-     * @param type 类型
+     *
+     * @param index    索引名
+     * @param type     类型
      * @param jsonList 批量数据
      */
     public void bulkInsertData(String index, String type, List<String> jsonList) {
@@ -183,10 +196,17 @@ public class ElasticsearchService {
         BulkResponse bulkResponse = bulkRequest.get();
     }
 
+//    public List<Map<String,Object>> mutilSearch(String index, String type, ESQueryBuilderConstructor constructor){
+//        List<Map<String, Object>> result = new ArrayList<>();
+//
+//        return result;
+//    }
+
     /**
      * 功能描述：查询
-     * @param index 索引名
-     * @param type 类型
+     *
+     * @param index       索引名
+     * @param type        类型
      * @param constructor 查询构造
      */
     public List<Map<String, Object>> search(String index, String type, ESQueryBuilderConstructor constructor) {
@@ -207,7 +227,6 @@ public class ElasticsearchService {
         if (size > MAX) {
             size = MAX;
         }
-        //返回条目数
         searchRequestBuilder.setSize(size);
 
         searchRequestBuilder.setFrom(constructor.getFrom() < 0 ? 0 : constructor.getFrom());
@@ -222,18 +241,13 @@ public class ElasticsearchService {
         return result;
     }
 
-    public List<Map<String, Object>> mutilsearch(String index, String type, ESQueryBuilderConstructor constructor) {
-        List<Map<String, Object>> result = new ArrayList<>();
-        MultiMatchQueryBuilder builder = QueryBuilders.multiMatchQuery("电脑", "c_type", "c_details");
-        return result;
-    }
-
     /**
      * 功能描述：统计查询
-     * @param index 索引名
-     * @param type 类型
+     *
+     * @param index       索引名
+     * @param type        类型
      * @param constructor 查询构造
-     * @param groupBy 统计字段
+     * @param groupBy     统计字段
      */
     public Map<Object, Object> statSearch(String index, String type, ESQueryBuilderConstructor constructor, String groupBy) {
         Map<Object, Object> map = new HashedMap();
@@ -277,10 +291,11 @@ public class ElasticsearchService {
 
     /**
      * 功能描述：统计查询
-     * @param index 索引名
-     * @param type 类型
+     *
+     * @param index       索引名
+     * @param type        类型
      * @param constructor 查询构造
-     * @param agg 自定义计算
+     * @param agg         自定义计算
      */
     public Map<Object, Object> statSearch(String index, String type, ESQueryBuilderConstructor constructor, AggregationBuilder agg) {
         if (agg == null) {
@@ -324,7 +339,6 @@ public class ElasticsearchService {
 
         return map;
     }
-
 
     /**
      * 功能描述：关闭链接

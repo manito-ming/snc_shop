@@ -1,6 +1,8 @@
 package snc.boot.util.es;
 
 import java.util.Collection;
+import java.util.List;
+
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import static snc.boot.util.es.ESCriterion.Operator;
@@ -11,6 +13,7 @@ public class ESSimpleExpression {
     private ESCriterion.Operator operator;      //计算符
     private Object from;
     private Object to;
+    private List<String> fields = null;
 
     protected  ESSimpleExpression(String fieldName, Object value, ESCriterion.Operator operator) {
         this.fieldName = fieldName;
@@ -29,6 +32,12 @@ public class ESSimpleExpression {
         this.operator = ESCriterion.Operator.TERMS;
     }
 
+    protected ESSimpleExpression(Object value, List<String> fileds) {
+        this.value = value;
+        this.fields = fileds;
+        this.operator = ESCriterion.Operator.MULTI;
+    }
+
     protected ESSimpleExpression(String fieldName, Object from, Object to) {
         this.fieldName = fieldName;
         this.from = from;
@@ -36,10 +45,11 @@ public class ESSimpleExpression {
         this.operator = Operator.RANGE;
     }
 
-    public QueryBuilder toBuilder() {
+    public Object toBuilder() {
         QueryBuilder qb = null;
         switch (operator) {
             case TERM:
+                System.out.println(fieldName+"   "+value);
                 qb = QueryBuilders.termQuery(fieldName, value);
                 break;
             case TERMS:
@@ -53,6 +63,10 @@ public class ESSimpleExpression {
                 break;
             case QUERY_STRING:
                 qb = QueryBuilders.queryStringQuery(value.toString());
+                break;
+            case MULTI:
+                qb = QueryBuilders.multiMatchQuery(value,fields.toArray(new String[fields.size()]));
+                break;
         }
         return qb;
     }

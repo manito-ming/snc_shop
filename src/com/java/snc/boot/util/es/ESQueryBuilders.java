@@ -1,13 +1,26 @@
 package snc.boot.util.es;
 
+import org.elasticsearch.index.query.MultiMatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 
 public class ESQueryBuilders implements ESCriterion{
     private List<QueryBuilder> list = new ArrayList<>();
+
+    /**
+     * 功能描述：MultiMatch 查询
+     * @param value 值
+     * @param fields 字段集合
+     */
+    public ESQueryBuilders multiMatch(Object value, List<String> fields){
+        list.add((QueryBuilder) new ESSimpleExpression(value,fields).toBuilder());
+        return this;
+    }
 
     /**
      * 功能描述：Term 查询
@@ -15,7 +28,7 @@ public class ESQueryBuilders implements ESCriterion{
      * @param value 值
      */
     public ESQueryBuilders term(String field, Object value) {
-        list.add(new ESSimpleExpression (field, value, Operator.TERM).toBuilder());
+        list.add((QueryBuilder) new ESSimpleExpression (field, value, Operator.TERM).toBuilder());
         return this;
     }
 
@@ -25,7 +38,7 @@ public class ESQueryBuilders implements ESCriterion{
      * @param values 集合值
      */
     public ESQueryBuilders terms(String field, Collection<Object> values) {
-        list.add(new ESSimpleExpression (field, values).toBuilder());
+        list.add((QueryBuilder) new ESSimpleExpression (field, values).toBuilder());
         return this;
     }
 
@@ -35,7 +48,7 @@ public class ESQueryBuilders implements ESCriterion{
      * @param value 值
      */
     public ESQueryBuilders fuzzy(String field, Object value) {
-        list.add(new ESSimpleExpression (field, value, Operator.FUZZY).toBuilder());
+        list.add((QueryBuilder) new ESSimpleExpression (field, value, Operator.FUZZY).toBuilder());
         return this;
     }
 
@@ -45,7 +58,7 @@ public class ESQueryBuilders implements ESCriterion{
      * @param to 末尾值
      */
     public ESQueryBuilders range(String field, Object from, Object to) {
-        list.add(new ESSimpleExpression (field, from, to).toBuilder());
+        list.add((QueryBuilder) new ESSimpleExpression (field, from, to).toBuilder());
         return this;
     }
 
@@ -54,7 +67,7 @@ public class ESQueryBuilders implements ESCriterion{
      * @param queryString 查询语句
      */
     public ESQueryBuilders queryString(String queryString) {
-        list.add(new ESSimpleExpression (queryString, Operator.QUERY_STRING).toBuilder());
+        list.add((QueryBuilder) new ESSimpleExpression (queryString, Operator.QUERY_STRING).toBuilder());
         return this;
     }
 
