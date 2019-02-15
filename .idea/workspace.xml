@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
+=======
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/connector/IBaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/model/entity/BaseUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/model/entity/IBaseCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/model/entity/IBaseUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilderConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESSimpleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/inithandler/IDEInitChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/inithandler/IDEInitChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyCommodityHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CommodityFirstHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CommodityFirstHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/DeletesCartHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/DeletesCartHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/LoginHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/handler/ShoppcartHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/WebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/WebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/resources/sncconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/sncconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/boot/Boot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/boot/Boot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/boot/ServiceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/boot/ServiceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/connector/IDEServerConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/connector/IDEServerConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/connector/ShopServerConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/connector/ShopServerConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/inithandler/IDEInitChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/inithandler/IDEInitChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/inithandler/ShopInitHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/inithandler/ShopInitHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/message/IBaseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/message/IBaseMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/redis/GetJedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/redis/GetJedis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/redis/RedisClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/redis/RedisClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/redis/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/redis/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/CSVUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/CSVUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/ESUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/ESUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/FinalTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/FinalTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/RedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/common/BaseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/common/IBaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/common/IBaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/common/Router.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/common/Router.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/ClassDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/ClassDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/GiftDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/GiftDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/UserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/VmDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/dao/VmDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyCommodityHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyCommodityHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyVmHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/BuyVmHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/CheckCartHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/CheckCartHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/ClassHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/ClassHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/CommodityFirstHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/CommodityFirstHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/DeletesCartHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/DeletesCartHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/GiftHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/GiftHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/LoginHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/ShoppcartHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/handler/ShoppcartHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Commodity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Gift.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Gift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Vm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/Vm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/VmPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/pojo/VmPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/ClassService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/ClassService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/GiftService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/GiftService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/VmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/VmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/BuyGift.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/BuyGift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/GiftInterfaceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/GiftInterfaceHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/IDELoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/handler/IDELoginHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/ClassServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/ClassServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/GiftServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/GiftServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/VmServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/service/impl/VmServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/BuyVm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/BuyVm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/CSVTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/CSVTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/WebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/WebSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/tttt/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/tttt/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/util/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/util/ConnectionPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/util/RedidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/util/RedidTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/util/RedisOperating.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/util/RedisOperating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/util/StartDocker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/util/StartDocker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/handler/ShopHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/handler/ShopHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/LRService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/LRService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/handler/ShopLoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/handler/ShopLoginHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/msgTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/msgTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/shop/service/tools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sncconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sncconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+    </list>
+>>>>>>> up/master
+>>>>>>> origin/master
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +153,27 @@
       <file leaf-file-name="Elasticsearch5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="529">
               <caret line="294" column="47" lean-forward="true" selection-start-line="294" selection-start-column="41" selection-end-line="294" selection-end-column="54" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="216">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/impl/UserInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+=======
+            <state relative-caret-position="282">
+              <caret line="277" column="49" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="49" />
+>>>>>>> up/master
+>>>>>>> origin/master
               <folding>
                 <element signature="e#3285#3318#1" expanded="true" />
                 <element signature="e#5798#5836#1" expanded="true" />
@@ -73,6 +207,7 @@
       <file leaf-file-name="ElasticsearchService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="384">
               <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
               <folding>
@@ -195,12 +330,59 @@
                 <element signature="e#3963#3964#0" expanded="true" />
                 <element signature="e#4000#4001#0" expanded="true" />
                 <element signature="e#4032#4033#0" expanded="true" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="486">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding>
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+=======
+            <state relative-caret-position="214">
+              <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6438#6491#1" expanded="true" />
+                <element signature="e#6500#6587#1" expanded="true" />
+                <element signature="e#6963#7020#0" expanded="true" />
+                <element signature="e#6963#7020#0" expanded="true" />
+                <element signature="e#6985#7018#1" expanded="true" />
+                <element signature="e#7220#7254#0" expanded="true" />
+                <element signature="e#7220#7254#0" expanded="true" />
+                <element signature="e#7265#7348#0" expanded="true" />
+                <element signature="e#7265#7348#0" expanded="true" />
+                <element signature="e#7298#7373#1" expanded="true" />
+                <element signature="e#7383#7426#1" expanded="true" />
+                <element signature="e#7401#7425#0" expanded="true" />
+                <element signature="e#7435#7476#1" expanded="true" />
+                <element signature="e#7461#7475#0" expanded="true" />
+                <element signature="e#7546#7630#0" expanded="true" />
+                <element signature="e#7490#7502#0" expanded="true" />
+                <element signature="e#7546#7630#0" expanded="true" />
+                <element signature="e#7593#7619#0" expanded="true" />
+                <element signature="e#7593#7619#0" expanded="true" />
+                <element signature="e#7725#7778#1" expanded="true" />
+                <element signature="e#7760#7777#0" expanded="true" />
+                <element signature="e#7848#7940#1" expanded="true" />
+>>>>>>> up/master
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="IDELoginHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+=======
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+>>>>>>> origin/master
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -259,10 +441,32 @@
                 <element signature="e#2053#2054#0" expanded="true" />
                 <element signature="e#2080#2081#0" expanded="true" />
               </folding>
+>>>>>>> up/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="IDE_docker" pinned="false" current-in-tab="false">
+        <entry file="das://7767ddee-d165-4f97-971f-91dc925f704a/schema/snc/table/IDE_docker">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> up/master
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -394,10 +598,24 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="2240" />
     <option name="y" value="-4" />
     <option name="width" value="1438" />
     <option name="height" value="784" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="648" />
+    <option name="y" value="27" />
+    <option name="width" value="1272" />
+    <option name="height" value="1029" />
+=======
+    <option name="x" value="1919" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
+>>>>>>> up/master
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -405,13 +623,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="AndroidView" />
+=======
       <pane id="Scope" />
+>>>>>>> up/master
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
+              <item name="snc_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snc_shop" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="snc" type="b2602c69:ProjectViewProjectNode" />
               <item name="snc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -540,11 +766,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> up/master
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+      <pane id="AndroidView" />
+>>>>>>> up/master
+>>>>>>> origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,11 +789,16 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+=======
     <property name="last_opened_file_path" value="$USER_HOME$/下载/book" />
     <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> up/master
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.38011697" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -900,6 +1140,10 @@
       <workItem from="1548727133632" duration="2906000" />
       <workItem from="1548762226509" duration="608000" />
       <workItem from="1548899526016" duration="11000" />
+<<<<<<< HEAD
+      <workItem from="1548911525469" duration="5390000" />
+      <workItem from="1550050749093" duration="453000" />
+=======
       <workItem from="1548911525469" duration="13742000" />
       <workItem from="1548983947180" duration="898000" />
       <workItem from="1548984866028" duration="4381000" />
@@ -909,10 +1153,15 @@
       <workItem from="1549851249921" duration="3000" />
       <workItem from="1549851282945" duration="7234000" />
       <workItem from="1549867710906" duration="340000" />
+<<<<<<< HEAD
       <workItem from="1549868323068" duration="5173000" />
       <workItem from="1550045349958" duration="3172000" />
       <workItem from="1550204547996" duration="528000" />
       <workItem from="1550205106399" duration="16956000" />
+=======
+      <workItem from="1549868323068" duration="4552000" />
+>>>>>>> up/master
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
@@ -949,7 +1198,50 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="303427000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="241430000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3294979" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3271078" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38485804" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.46130502" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27056876" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.081170626" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39748955" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32597265" />
+      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32176656" />
+=======
+    <option name="totallyTimeSpent" value="282150000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
@@ -985,7 +1277,11 @@
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32597265" />
       <window_info id="Nl-Palette" order="6" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Properties" order="7" />
+=======
+>>>>>>> up/master
+>>>>>>> origin/master
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3253138" />
@@ -993,6 +1289,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1007,6 +1313,83 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/Data.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/test/CSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/GiftInterfaceHandler.java">
+>>>>>>> up/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/CSVUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/BuyVmHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/IDELoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/ESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/FinalTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/BootStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/pojo/VmPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/BuyGift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/GiftHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1093,8 +1476,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/model/entity/BaseUser.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="888">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+=======
         <state relative-caret-position="144">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -1149,15 +1537,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/boot/Boot.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="144">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+=======
         <state relative-caret-position="1014">
           <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#1906#1986#0" expanded="true" />
+            <element signature="e#1906#1986#0" expanded="true" />
+            <element signature="e#2000#2212#0" expanded="true" />
+            <element signature="e#2000#2212#0" expanded="true" />
+            <element signature="e#2226#3421#0" expanded="true" />
+            <element signature="e#2230#2253#0" expanded="true" />
+            <element signature="e#2230#2253#0" expanded="true" />
+            <element signature="e#2226#3421#0" expanded="true" />
+            <element signature="e#1907#1953#1" expanded="true" />
+            <element signature="e#1970#2018#1" expanded="true" />
+            <element signature="e#4698#4746#0" expanded="true" />
+            <element signature="e#4698#4746#0" expanded="true" />
+            <element signature="e#4845#5751#0" expanded="true" />
+            <element signature="e#4845#5751#0" expanded="true" />
+            <element signature="e#4418#4500#1" expanded="true" />
+            <element signature="e#4517#4604#1" expanded="true" />
+            <element signature="e#5310#5540#0" expanded="true" />
+            <element signature="e#5310#5540#0" expanded="true" />
+            <element signature="e#4751#4833#1" expanded="true" />
+            <element signature="e#4995#5082#1" expanded="true" />
+            <element signature="e#5275#5276#0" expanded="true" />
+            <element signature="e#5314#5315#0" expanded="true" />
+          </folding>
+>>>>>>> up/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESSimpleExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#1080#1103#1" expanded="true" />
+            <element signature="e#1333#1960#0" expanded="true" />
+            <element signature="e#1333#1960#0" expanded="true" />
+            <element signature="e#1711#1727#0" expanded="true" />
+          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.3/elasticsearch-5.5.3.jar!/org/elasticsearch/search/aggregations/bucket/terms/Terms.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-312">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+=======
         <state relative-caret-position="569">
           <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -1194,8 +1632,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/handler/CheckCartHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="176">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="31" />
+=======
         <state relative-caret-position="672">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2107,8 +2550,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2466">
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+=======
         <state relative-caret-position="350">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2163,11 +2611,16 @@
     </entry>
     <entry file="jar://$USER_HOME$/jdk1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="216">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+=======
         <state relative-caret-position="184">
           <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
           <folding>
             <element signature="e#6491#6492#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2194,6 +2647,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.3/elasticsearch-5.5.3.jar!/org/elasticsearch/index/query/MultiMatchQueryBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="24">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
@@ -2210,6 +2664,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="294" column="47" lean-forward="true" selection-start-line="294" selection-start-column="41" selection-end-line="294" selection-end-column="54" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="682">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+=======
+        <state relative-caret-position="408">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+>>>>>>> origin/master
           <folding>
             <element signature="e#3285#3318#1" expanded="true" />
             <element signature="e#5798#5836#1" expanded="true" />
@@ -2227,16 +2689,27 @@
             <element signature="e#11450#11470#0" expanded="true" />
             <element signature="e#12151#12387#1" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="385">
           <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+=======
+        <state relative-caret-position="70">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
+>>>>>>> origin/master
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
@@ -2313,8 +2786,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESSimpleExpression.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="155">
           <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="126">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+=======
+        <state relative-caret-position="214">
+          <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+>>>>>>> up/master
+>>>>>>> origin/master
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1546#1569#1" expanded="true" />
@@ -2324,6 +2807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="192">
           <caret line="20" column="78" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="78" />
           <folding>
@@ -2338,14 +2822,57 @@
             <element signature="e#1911#2007#0" expanded="true" />
             <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2080#2081#0" expanded="true" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="486">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+=======
+        <state relative-caret-position="282">
+          <caret line="277" column="49" selection-start-line="277" selection-start-column="36" selection-end-line="277" selection-end-column="49" />
+          <folding>
+            <element signature="e#5762#5800#1" expanded="true" />
+            <element signature="e#7687#7712#1" expanded="true" />
+            <element signature="e#7721#7745#1" expanded="true" />
+            <element signature="e#7754#7769#1" expanded="true" />
+            <element signature="e#7778#8154#1" expanded="true" />
+            <element signature="e#8163#8206#1" expanded="true" />
+            <element signature="e#8215#8248#1" expanded="true" />
+            <element signature="e#8228#8247#0" expanded="true" />
+            <element signature="e#10273#10356#1" expanded="true" />
+            <element signature="e#10365#10440#1" expanded="true" />
+            <element signature="e#10449#10526#1" expanded="true" />
+            <element signature="e#10535#10724#1" expanded="true" />
+            <element signature="e#10964#11056#1" expanded="true" />
+            <element signature="e#11065#11233#1" expanded="true" />
+>>>>>>> up/master
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="18">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+=======
+        <state relative-caret-position="360">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+>>>>>>> origin/master
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#662#685#0" expanded="true" />
@@ -2390,6 +2917,7 @@
             <element signature="e#10854#10914#0" expanded="true" />
             <element signature="e#10854#10914#0" expanded="true" />
           </folding>
+>>>>>>> up/master
         </state>
       </provider>
     </entry>
