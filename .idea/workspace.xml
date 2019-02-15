@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilderConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilderConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESSimpleExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESSimpleExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/snc/server/ide/test/Elasticsearch/Elasticsearch5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESCriterion$Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESCriterion$Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESQueryBuilderConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESQueryBuilderConstructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESQueryBuilders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESQueryBuilders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESSimpleExpression$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESSimpleExpression$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESSimpleExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ESSimpleExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ElasticsearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/ElasticsearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/boot/util/es/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/boot/util/es/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/snc/server/ide/test/Elasticsearch/Elasticsearch5.class" afterDir="false" />
-    </list>
+    <list default="true" id="b7db674d-d2be-4ec0-9940-d23495b3e55b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElasticsearchService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ElasticsearchService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="232" column="49" lean-forward="true" selection-start-line="232" selection-start-column="49" selection-end-line="232" selection-end-column="49" />
+            <state relative-caret-position="384">
+              <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
               <folding>
                 <element signature="method#createIndex#0;class#ElasticsearchService#0" />
                 <element signature="e#6617#6670#1" expanded="true" />
@@ -100,27 +83,27 @@
                 <element signature="e#6815#6835#0" expanded="true" />
                 <element signature="e#6879#6899#0" expanded="true" />
                 <element signature="e#6952#6973#0" expanded="true" />
-                <element signature="e#7479#7536#0" expanded="true" />
-                <element signature="e#7479#7536#0" expanded="true" />
+                <element signature="e#7471#7528#0" expanded="true" />
+                <element signature="e#7471#7528#0" expanded="true" />
                 <element signature="e#7164#7197#1" expanded="true" />
-                <element signature="e#7736#7770#0" expanded="true" />
-                <element signature="e#7736#7770#0" expanded="true" />
-                <element signature="e#7781#7864#0" expanded="true" />
+                <element signature="e#7712#7746#0" expanded="true" />
+                <element signature="e#7712#7746#0" expanded="true" />
+                <element signature="e#7757#7840#0" expanded="true" />
                 <element signature="e#7412#7433#0" expanded="true" />
-                <element signature="e#7781#7864#0" expanded="true" />
+                <element signature="e#7757#7840#0" expanded="true" />
                 <element signature="e#7477#7552#1" expanded="true" />
                 <element signature="e#7562#7605#1" expanded="true" />
                 <element signature="e#7614#7655#1" expanded="true" />
-                <element signature="e#8062#8146#0" expanded="true" />
+                <element signature="e#8038#8122#0" expanded="true" />
                 <element signature="e#7669#7681#0" expanded="true" />
-                <element signature="e#8062#8146#0" expanded="true" />
+                <element signature="e#8038#8122#0" expanded="true" />
                 <element signature="e#10161#10248#1" expanded="true" />
-                <element signature="e#10751#10949#0" expanded="true" />
-                <element signature="e#10751#10949#0" expanded="true" />
-                <element signature="e#10790#10847#0" expanded="true" />
-                <element signature="e#10790#10847#0" expanded="true" />
-                <element signature="e#10878#10938#0" expanded="true" />
-                <element signature="e#10878#10938#0" expanded="true" />
+                <element signature="e#10727#10925#0" expanded="true" />
+                <element signature="e#10727#10925#0" expanded="true" />
+                <element signature="e#10766#10823#0" expanded="true" />
+                <element signature="e#10766#10823#0" expanded="true" />
+                <element signature="e#10854#10914#0" expanded="true" />
+                <element signature="e#10854#10914#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,17 +200,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            <state relative-caret-position="408">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#663#686#0" expanded="true" />
-                <element signature="e#663#686#0" expanded="true" />
-                <element signature="e#719#748#0" expanded="true" />
-                <element signature="e#719#748#0" expanded="true" />
+                <element signature="e#662#685#0" expanded="true" />
+                <element signature="e#662#685#0" expanded="true" />
+                <element signature="e#718#747#0" expanded="true" />
+                <element signature="e#718#747#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -368,8 +351,8 @@
         <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESCriterion.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilders.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ESQueryBuilderConstructor.java" />
-        <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java" />
         <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java" />
       </list>
     </option>
   </component>
@@ -929,17 +912,11 @@
       <workItem from="1549868323068" duration="5173000" />
       <workItem from="1550045349958" duration="3172000" />
       <workItem from="1550204547996" duration="528000" />
-      <workItem from="1550205106399" duration="16688000" />
+      <workItem from="1550205106399" duration="16956000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_stest - 2019.02.15 at 17h 22m 23s.xml">
-      <configuration name="Test.stest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_stest - 2019.02.15 at 17h 22m 32s.xml">
-      <configuration name="Test.stest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_stest - 2019.02.15 at 17h 23m 34s.xml">
       <configuration name="Test.stest" configurationId="JUnit" />
     </history-entry>
@@ -964,13 +941,18 @@
     <history-entry file="Test_stest - 2019.02.15 at 22h 56m 43s.xml">
       <configuration name="Test.stest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_stest - 2019.02.16 at 00h 03m 23s.xml">
+      <configuration name="Test.stest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_stest - 2019.02.16 at 00h 03m 38s.xml">
+      <configuration name="Test.stest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303159000" />
+    <option name="totallyTimeSpent" value="303427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5005325" side_tool="true" weight="0.3294979" />
@@ -991,10 +973,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.32912722" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1814301" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" visible="true" weight="0.32912722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1814301" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -2360,10 +2342,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#662#685#0" expanded="true" />
+            <element signature="e#662#685#0" expanded="true" />
+            <element signature="e#718#747#0" expanded="true" />
+            <element signature="e#718#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/ElasticsearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="232" column="49" lean-forward="true" selection-start-line="232" selection-start-column="49" selection-end-line="232" selection-end-column="49" />
+        <state relative-caret-position="384">
+          <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
           <folding>
             <element signature="method#createIndex#0;class#ElasticsearchService#0" />
             <element signature="e#6617#6670#1" expanded="true" />
@@ -2372,41 +2368,27 @@
             <element signature="e#6815#6835#0" expanded="true" />
             <element signature="e#6879#6899#0" expanded="true" />
             <element signature="e#6952#6973#0" expanded="true" />
-            <element signature="e#7479#7536#0" expanded="true" />
-            <element signature="e#7479#7536#0" expanded="true" />
+            <element signature="e#7471#7528#0" expanded="true" />
+            <element signature="e#7471#7528#0" expanded="true" />
             <element signature="e#7164#7197#1" expanded="true" />
-            <element signature="e#7736#7770#0" expanded="true" />
-            <element signature="e#7736#7770#0" expanded="true" />
-            <element signature="e#7781#7864#0" expanded="true" />
+            <element signature="e#7712#7746#0" expanded="true" />
+            <element signature="e#7712#7746#0" expanded="true" />
+            <element signature="e#7757#7840#0" expanded="true" />
             <element signature="e#7412#7433#0" expanded="true" />
-            <element signature="e#7781#7864#0" expanded="true" />
+            <element signature="e#7757#7840#0" expanded="true" />
             <element signature="e#7477#7552#1" expanded="true" />
             <element signature="e#7562#7605#1" expanded="true" />
             <element signature="e#7614#7655#1" expanded="true" />
-            <element signature="e#8062#8146#0" expanded="true" />
+            <element signature="e#8038#8122#0" expanded="true" />
             <element signature="e#7669#7681#0" expanded="true" />
-            <element signature="e#8062#8146#0" expanded="true" />
+            <element signature="e#8038#8122#0" expanded="true" />
             <element signature="e#10161#10248#1" expanded="true" />
-            <element signature="e#10751#10949#0" expanded="true" />
-            <element signature="e#10751#10949#0" expanded="true" />
-            <element signature="e#10790#10847#0" expanded="true" />
-            <element signature="e#10790#10847#0" expanded="true" />
-            <element signature="e#10878#10938#0" expanded="true" />
-            <element signature="e#10878#10938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/snc/boot/util/es/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#663#686#0" expanded="true" />
-            <element signature="e#663#686#0" expanded="true" />
-            <element signature="e#719#748#0" expanded="true" />
-            <element signature="e#719#748#0" expanded="true" />
+            <element signature="e#10727#10925#0" expanded="true" />
+            <element signature="e#10727#10925#0" expanded="true" />
+            <element signature="e#10766#10823#0" expanded="true" />
+            <element signature="e#10766#10823#0" expanded="true" />
+            <element signature="e#10854#10914#0" expanded="true" />
+            <element signature="e#10854#10914#0" expanded="true" />
           </folding>
         </state>
       </provider>
