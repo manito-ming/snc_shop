@@ -43,7 +43,7 @@ public class ClassHandler extends ChannelInboundHandlerAdapter{
         if (fhr.uri().equals("/snc/buy/class")) {
             JSONObject o = Router.getMessage(fhr);
             logger.info("jsonObject-------"+o);
-            String pid = o.getString(FinalTable.AH_USER_ID);
+            String pid = o.getString(FinalTable.UUID);
             String cid = o.getString(FinalTable.CLASS_ID);
             Course course = new Course(classHandler.classService);
             Date date = new Date();

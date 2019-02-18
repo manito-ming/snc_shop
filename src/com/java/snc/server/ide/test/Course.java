@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import org.springframework.stereotype.Controller;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
 import snc.boot.redis.GetJedis;
 import snc.server.ide.pojo.User;
 import snc.server.ide.service.ClassService;
@@ -25,20 +26,25 @@ public class Course {
 
 
     public boolean buyCourse(String pid,String cid){
+        System.out.println(pid+cid);
         String num="";
-        String price;
-        //首先查询该账户id的余额
-        if (jedis.hexists(pid,"CM"))
-        {
-            System.out.println(jedis.hmget(pid, "CM"));
-             num = jedis.hget(pid, "CM");
-        }else {
+        String price="";
+        //查询该账户是否在redis中存在
+        if (jedis.exists(pid)) {
+            //首先查询该账户id的余额
+            if (jedis.hexists(pid, "CM")) {
+                System.out.println(jedis.hmget(pid, "CM"));
+                num = jedis.hget(pid, "CM");
+            }
+        }else { //从数据库中查询，并且写入
             num = classService.getCM(pid);
            System.out.println(num+"---------num");
             jedis.hset(pid,"CM",num);
         }
-        if (jedis.hexists(cid,"courseprice")){
-             price = String.valueOf(jedis.hget(cid,"courseprice"));
+        if (jedis.exists(cid)) {
+            if (jedis.hexists(cid, "courseprice")) {
+                price = String.valueOf(jedis.hget(cid, "courseprice"));
+            }
         }else {
              price = classService.getClspt(cid);
              jedis.hset(cid,"courseprice",price);
@@ -51,13 +57,13 @@ public class Course {
         logger.info("商品所需的课时数-------"+courseprice);
         if (coursenum>=courseprice){
             /*对redis进行更改*/
+            Transaction multi=jedis.multi();
             coursenum=coursenum-courseprice;
             num = String.valueOf(coursenum);
-            jedis.hset(pid,"CM",num);
-            logger.info("当前所有的课时数-------"+jedis.hget(pid,"CM"));
+            multi.hset(pid,"CM",num);
             //然后在该账户的已购课程中加入该课程的id
-            jedis.hset(pid,"yigou",jedis.hget(cid,"courseid"));
-            System.out.println("已购课程： "+jedis.hget(pid,"yigou"));
+            multi.hset(pid,"yigou",cid);
+
 
             //对数据库进行更改
 //            updatecourse(pid,num,cid);
@@ -67,6 +73,11 @@ public class Course {
             user.setYG(cid);
             classService.Updatemoney(user);
             classService.Updateclass(user);
+            Object  o = multi.exec();//执行ｒedis的修改
+            if (o == null)
+            {
+                return false;
+            }
             return true;
         }else {
             System.out.println("余额不足");
