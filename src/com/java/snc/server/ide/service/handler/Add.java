@@ -5,19 +5,29 @@ import com.alibaba.fastjson.JSONObject;
 import org.apache.ibatis.annotations.Param;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Transaction;
 import snc.boot.redis.GetJedis;
+import snc.boot.util.common.Router;
+import snc.server.ide.pojo.CdOrder;
 import snc.server.ide.pojo.Commodity;
 
+import snc.server.ide.pojo.User;
+import snc.server.ide.service.ClassService;
 import snc.server.ide.service.UserInfoService;
 
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class Add {                //点击加入购物车时的redis流程，购物车的数据存储
 
    private Jedis jedis = GetJedis.getJedis();
+
+    public Add() {
+    }
 
     public void add(Commodity commodity){//考虑到购买同一个商品但是商品的属性不同，那么购物车也会显示不同属性，所以redis的key不能以商品id，而是应该以所有属性合起来来的字符串为key
 
@@ -69,18 +79,7 @@ public class Add {                //点击加入购物车时的redis流程，购
         jedis.hdel("commodity"+"_"+commodity.getPid(),cofiled);
 
     }
-    public boolean buyCommodity(Commodity commodity){          //付款
-        Transaction multi=jedis.multi();
-        int money= Integer.parseInt(jedis.hget(commodity.getPid(),"money"));
-        if(money-commodity.getPrice()>=0){
-            int money1= (int) (money-commodity.getPrice());
-            multi.hset("buy_"+commodity.getPid(),commodity.getSid(), JSON.toJSONString(commodity));
-            multi.hset(commodity.getPid(),"money", String.valueOf(money));
-            return true;
-        }else {
-            return false;
-        }
-    }
+
     public String product(String s){
         JSONObject jsonObj = JSON.parseObject(s);
         ResultSet resultSet=null;

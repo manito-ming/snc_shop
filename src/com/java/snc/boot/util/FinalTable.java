@@ -58,7 +58,7 @@ public class FinalTable {
     public final static String DEBUG_PORT = "P";
     public final static String SEND_RESULT = "r";
     public final static String SEND_DATA = "d";
-
+    public final static String SCMC = "scms";
     public final static String NO_ERROR="0";
     public final static String ERROR="1";
 
