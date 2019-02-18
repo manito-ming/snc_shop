@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import snc.boot.util.FinalTable;
 import snc.boot.util.common.Router;
 import snc.server.ide.service.ClassService;
-import snc.server.ide.service.UserInfoService;
 import snc.server.ide.test.Course;
 import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;

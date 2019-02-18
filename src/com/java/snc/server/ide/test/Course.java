@@ -26,7 +26,6 @@ public class Course {
 
 
     public boolean buyCourse(String pid,String cid){
-        System.out.println(pid+cid);
         String num="";
         String price="";
         //查询该账户是否在redis中存在
@@ -38,7 +37,6 @@ public class Course {
             }
         }else { //从数据库中查询，并且写入
             num = classService.getCM(pid);
-           System.out.println(num+"---------num");
             jedis.hset(pid,"CM",num);
         }
         if (jedis.exists(cid)) {
