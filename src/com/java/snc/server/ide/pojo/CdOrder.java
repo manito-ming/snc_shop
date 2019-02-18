@@ -11,6 +11,9 @@ public class CdOrder {
     private String kd;        //物流单号
     private String scms;      //商品信息
 
+    public CdOrder() {
+    }
+
     public CdOrder(String orderid, String phone, String addr, String oname, double money, String orderdate, int sta, String kd, String scmc) {
         this.orderid = orderid;
         this.phone = phone;
