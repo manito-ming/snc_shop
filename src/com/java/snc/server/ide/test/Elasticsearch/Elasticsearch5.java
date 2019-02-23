@@ -19,6 +19,7 @@ import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.junit.Before;
@@ -252,11 +253,16 @@ public class Elasticsearch5 {
     {
         String index="commodity";
         String type="commodity";
-
+        HighlightBuilder highlightBuilder = new HighlightBuilder();//高亮显示
+//        highlightBuilder.postTags("<h2>");
+//        highlightBuilder.postTags("</h2>");
+        highlightBuilder.field("c_type");
         SearchResponse searchResponse = client.prepareSearch(index)
                 .setTypes(type)
 //                .setQuery(QueryBuilders.matchAllQuery()) //查询所有
                 .setSearchType(SearchType.QUERY_THEN_FETCH)
+                .setQuery(QueryBuilders.matchQuery("c_type", "电脑"))
+                .highlighter(highlightBuilder)    //增加高亮显示
 //                .setFrom(1).setG_size(1)//分页
                 .addSort("c_price", SortOrder.DESC)//排序
                 .get();
@@ -268,6 +274,8 @@ public class Elasticsearch5 {
         for(SearchHit s : searchHits)
         {
             System.out.println(s.getSourceAsString());
+            System.out.println("Map方式打印高亮内容");
+            System.out.println(s.getHighlightFields());
         }
     }
 
